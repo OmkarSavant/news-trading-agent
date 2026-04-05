@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 8,
-      "avg_cost": 160.69000000000003
+      "shares": 9,
+      "avg_cost": 160.69222222222226
     },
     "GOOGL": {
       "shares": 1,
@@ -189,26 +189,33 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "The New York Times reports that oil markets are skeptical of peace signals, suggesting that geopolitical tensions and oil prices may remain elevated, which benefits major producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-05T13:53:42.542Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.71,
+      "reason": "The New York Times reports that oil markets remain skeptical of peace signals, suggesting continued geopolitical uncertainty that typically supports higher crude prices and benefits major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T12:52:37.756Z",
-    "unrealized": -1.9895196601282805e-13,
-    "total": -1.9895196601282805e-13,
+    "ts": "2026-04-05T13:53:35.854Z",
+    "unrealized": 0.39999999999982094,
+    "total": 0.39999999999982094,
     "prices": {
-      "WMT": 125.79,
-      "AMZN": 209.77,
-      "AAPL": 255.92,
-      "UNH": 277.26,
-      "BRK-B": 477.35,
-      "CVS": 73.49,
-      "XOM": 160.69,
-      "GOOGL": 295.77,
-      "MCK": 884.28,
-      "COR": 324.8,
-      "NVDA": 177.39,
-      "COST": 1014.96
+      "WMT": 125.81,
+      "AMZN": 209.79,
+      "AAPL": 255.94,
+      "UNH": 277.28,
+      "BRK-B": 477.37,
+      "CVS": 73.51,
+      "XOM": 160.71,
+      "GOOGL": 295.79,
+      "MCK": 884.3,
+      "COR": 324.82,
+      "NVDA": 177.41,
+      "COST": 1014.98
     }
   }
 }
