@@ -47,6 +47,10 @@
     "COST": {
       "shares": 1,
       "avg_cost": 1014.96
+    },
+    "UAL": {
+      "shares": 1,
+      "avg_cost": 92.23
     }
   },
   "trades": [
@@ -224,13 +228,20 @@
       "ticker": "XOM",
       "price": 160.71,
       "reason": "Oil markets remain skeptical of peace signals and OPEC+ production increases are contingent on the reopening of the Strait of Hormuz, suggesting continued supply tension and support for Exxon Mobil's stock."
+    },
+    {
+      "ts": "2026-04-05T17:28:20.282Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 92.23,
+      "reason": "United Airlines is introducing a \"Basic Polaris\" business class fare with fewer perks, a strategic move likely intended to segment its premium offerings and potentially improve margins or load factors in its high-end cabins."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T16:42:33.593Z",
-    "unrealized": 0.39999999999982094,
-    "total": 0.39999999999982094,
+    "ts": "2026-04-05T17:28:13.229Z",
+    "unrealized": 0.40000000000007674,
+    "total": 0.40000000000007674,
     "prices": {
       "WMT": 125.81,
       "AMZN": 209.79,
