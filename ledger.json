@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 14,
-      "avg_cost": 160.69857142857146
+      "shares": 15,
+      "avg_cost": 160.69933333333336
     },
     "GOOGL": {
       "shares": 1,
@@ -242,13 +242,20 @@
       "ticker": "XOM",
       "price": 160.71,
       "reason": "The New York Times reports that oil markets remain skeptical of peace signals as tensions with Iran grow, and Bloomberg reports that OPEC+ plans only a symbolic quota hike, suggesting continued support for energy prices."
+    },
+    {
+      "ts": "2026-04-05T18:55:09.306Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.71,
+      "reason": "Bloomberg reports that OPEC+ plans only a symbolic oil quota hike while The New York Times notes that oil markets remain skeptical of peace signals, both of which support higher crude prices and benefit Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T17:58:49.381Z",
-    "unrealized": 0.40000000000007674,
-    "total": 0.40000000000007674,
+    "ts": "2026-04-05T18:55:04.281Z",
+    "unrealized": 0.39999999999970726,
+    "total": 0.39999999999970726,
     "prices": {
       "WMT": 125.81,
       "AMZN": 209.79,
