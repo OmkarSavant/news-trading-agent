@@ -25,7 +25,7 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 7,
+      "shares": 8,
       "avg_cost": 160.69000000000003
     },
     "GOOGL": {
@@ -182,13 +182,20 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "The Guardian reports that the war in Iran is \"surging on,\" which likely leads to sustained higher oil prices, benefiting major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-05T12:52:44.556Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "The New York Times reports that oil markets are skeptical of peace signals, suggesting that geopolitical tensions and oil prices may remain elevated, which benefits major producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T11:54:14.945Z",
-    "unrealized": -1.7053025658242404e-13,
-    "total": -1.7053025658242404e-13,
+    "ts": "2026-04-05T12:52:37.756Z",
+    "unrealized": -1.9895196601282805e-13,
+    "total": -1.9895196601282805e-13,
     "prices": {
       "WMT": 125.79,
       "AMZN": 209.77,
