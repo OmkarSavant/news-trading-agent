@@ -11,14 +11,11 @@ import {
 const GOOGLE_NEWS_BUSINESS_RSS =
   "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en";
 
-const STOOQ_QUOTE_URL = "https://stooq.com/q/l/";
+const YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/";
 
-const UA = "Mozilla/5.0 (compatible; news-trade-agent/0.1)";
-
-// Stooq uses ".us" suffix and lowercase; Berkshire is "brk-b.us"
-function toStooqSymbol(ticker: string): string {
-  return ticker.toLowerCase() + ".us";
-}
+// Yahoo uses User-Agent enforcement but no crumb on the chart endpoint.
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
 
 export type NewsStory = {
   title: string;
@@ -60,19 +57,13 @@ export async function fetchTopNews(n: number): Promise<NewsStory[]> {
   }));
 }
 
-async function fetchOnePriceFromStooq(ticker: string): Promise<number | null> {
-  const url = `${STOOQ_QUOTE_URL}?s=${toStooqSymbol(ticker)}&f=sd2t2ohlcv&h&e=csv`;
+async function fetchOnePriceFromYahoo(ticker: string): Promise<number | null> {
+  const url = `${YAHOO_CHART_URL}${encodeURIComponent(ticker)}?interval=1d&range=1d`;
   const res = await fetch(url, { headers: { "User-Agent": UA } });
   if (!res.ok) return null;
-  const csv = await res.text();
-  const lines = csv.trim().split("\n");
-  if (lines.length < 2) return null;
-  const header = lines[0].split(",").map((h) => h.trim().toLowerCase());
-  const closeIdx = header.indexOf("close");
-  if (closeIdx < 0) return null;
-  const parts = lines[1].split(",");
-  const close = Number(parts[closeIdx]?.trim());
-  return Number.isFinite(close) ? close : null;
+  const json: any = await res.json();
+  const price = json?.chart?.result?.[0]?.meta?.regularMarketPrice;
+  return typeof price === "number" ? price : null;
 }
 
 export async function fetchPrices(
@@ -80,7 +71,7 @@ export async function fetchPrices(
 ): Promise<Record<string, number>> {
   if (tickers.length === 0) return {};
   const results = await Promise.all(
-    tickers.map(async (t) => [t, await fetchOnePriceFromStooq(t)] as const),
+    tickers.map(async (t) => [t, await fetchOnePriceFromYahoo(t)] as const),
   );
   const out: Record<string, number> = {};
   for (const [t, p] of results) {
@@ -90,7 +81,7 @@ export async function fetchPrices(
 }
 
 export async function fetchPrice(ticker: string): Promise<number> {
-  const price = await fetchOnePriceFromStooq(ticker);
+  const price = await fetchOnePriceFromYahoo(ticker);
   if (price === null) {
     throw new Error(`No price returned for ${ticker}`);
   }
