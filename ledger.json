@@ -43,6 +43,10 @@
     "NVDA": {
       "shares": 2,
       "avg_cost": 177.39
+    },
+    "COST": {
+      "shares": 1,
+      "avg_cost": 1014.96
     }
   },
   "trades": [
@@ -150,13 +154,32 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "Increasing exposure to the energy sector as The Guardian reports a surging war in Iran, a geopolitical development likely to drive up crude oil prices and benefit major producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-05T09:43:43.395Z",
+      "action": "buy",
+      "ticker": "COST",
+      "price": 1014.96,
+      "reason": "Costco is in the news regarding a product recall for sauté pans, which highlights the retailer's broad product range and consumer reach; additionally, a \"not good\" jobs report often leads investors toward defensive, high-quality warehouse clubs like Costco."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T09:34:48.129Z",
+    "ts": "2026-04-05T09:43:34.237Z",
     "unrealized": 0,
     "total": 0,
-    "prices": {}
+    "prices": {
+      "WMT": 125.79,
+      "AMZN": 209.77,
+      "AAPL": 255.92,
+      "UNH": 277.26,
+      "BRK-B": 477.35,
+      "CVS": 73.49,
+      "XOM": 160.69,
+      "GOOGL": 295.77,
+      "MCK": 884.28,
+      "COR": 324.8,
+      "NVDA": 177.39
+    }
   }
 }
