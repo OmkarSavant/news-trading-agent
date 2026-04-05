@@ -11,7 +11,7 @@ Built to compare how the same agent run looks across three observability tools:
 
 - TypeScript, Node 20
 - [Vercel AI SDK](https://ai-sdk.dev) + Gemini 3 Flash (cheap)
-- GitHub Actions cron (`*/30 * * * *`)
+- GitHub Actions cron (`7 * * * *`, every hour at :07)
 - Google News RSS (no API key) for headlines
 - Yahoo Finance `query1` endpoint (no API key) for quotes
 
