@@ -25,7 +25,7 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 4,
+      "shares": 5,
       "avg_cost": 160.69
     },
     "GOOGL": {
@@ -161,11 +161,18 @@
       "ticker": "COST",
       "price": 1014.96,
       "reason": "Costco is in the news regarding a product recall for sauté pans, which highlights the retailer's broad product range and consumer reach; additionally, a \"not good\" jobs report often leads investors toward defensive, high-quality warehouse clubs like Costco."
+    },
+    {
+      "ts": "2026-04-05T10:31:08.768Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "The Guardian reports a surging war in Iran, a geopolitical event that is expected to drive up global oil prices and inflation, benefiting major US energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T09:43:34.237Z",
+    "ts": "2026-04-05T10:31:03.366Z",
     "unrealized": 0,
     "total": 0,
     "prices": {
@@ -179,7 +186,8 @@
       "GOOGL": 295.77,
       "MCK": 884.28,
       "COR": 324.8,
-      "NVDA": 177.39
+      "NVDA": 177.39,
+      "COST": 1014.96
     }
   }
 }
