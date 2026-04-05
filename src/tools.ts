@@ -11,11 +11,15 @@ import {
 const GOOGLE_NEWS_BUSINESS_RSS =
   "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en";
 
-const YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/";
+const FINNHUB_QUOTE_URL = "https://finnhub.io/api/v1/quote";
 
-// Yahoo uses User-Agent enforcement but no crumb on the chart endpoint.
-const UA =
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
+const UA = "news-trade-agent/0.1";
+
+function finnhubKey(): string {
+  const k = process.env.FINNHUB_API_KEY;
+  if (!k) throw new Error("FINNHUB_API_KEY env var not set");
+  return k;
+}
 
 export type NewsStory = {
   title: string;
@@ -57,21 +61,38 @@ export async function fetchTopNews(n: number): Promise<NewsStory[]> {
   }));
 }
 
-async function fetchOnePriceFromYahoo(ticker: string): Promise<number | null> {
-  const url = `${YAHOO_CHART_URL}${encodeURIComponent(ticker)}?interval=1d&range=1d`;
-  const res = await fetch(url, { headers: { "User-Agent": UA } });
-  if (!res.ok) return null;
-  const json: any = await res.json();
-  const price = json?.chart?.result?.[0]?.meta?.regularMarketPrice;
-  return typeof price === "number" ? price : null;
+async function fetchOnePriceFromFinnhub(
+  ticker: string,
+): Promise<number | null> {
+  const url = `${FINNHUB_QUOTE_URL}?symbol=${encodeURIComponent(ticker)}&token=${finnhubKey()}`;
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": UA } });
+    if (!res.ok) {
+      console.error(`[price] ${ticker} HTTP ${res.status}`);
+      return null;
+    }
+    const json: any = await res.json();
+    // Finnhub returns { c: currentPrice, d, dp, h, l, o, pc, t }.
+    // An unknown symbol returns all zeroes; treat c<=0 as not-found.
+    const price = json?.c;
+    if (typeof price !== "number" || price <= 0) {
+      console.error(`[price] ${ticker} no current price (c=${price})`);
+      return null;
+    }
+    return price;
+  } catch (e: any) {
+    console.error(`[price] ${ticker} fetch error: ${e?.message ?? e}`);
+    return null;
+  }
 }
 
 export async function fetchPrices(
   tickers: string[],
 ): Promise<Record<string, number>> {
   if (tickers.length === 0) return {};
+  // Finnhub free tier is 60 req/min, parallel is fine.
   const results = await Promise.all(
-    tickers.map(async (t) => [t, await fetchOnePriceFromYahoo(t)] as const),
+    tickers.map(async (t) => [t, await fetchOnePriceFromFinnhub(t)] as const),
   );
   const out: Record<string, number> = {};
   for (const [t, p] of results) {
@@ -81,7 +102,7 @@ export async function fetchPrices(
 }
 
 export async function fetchPrice(ticker: string): Promise<number> {
-  const price = await fetchOnePriceFromYahoo(ticker);
+  const price = await fetchOnePriceFromFinnhub(ticker);
   if (price === null) {
     throw new Error(`No price returned for ${ticker}`);
   }

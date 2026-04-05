@@ -30,6 +30,7 @@ jobs:
       - name: Run agent
         env:
           GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           RAINDROP_WRITE_KEY: ${{ secrets.RAINDROP_WRITE_KEY }}
           BRAINTRUST_API_KEY: ${{ secrets.BRAINTRUST_API_KEY }}
           LAMINAR_PROJECT_API_KEY: ${{ secrets.LAMINAR_PROJECT_API_KEY }}

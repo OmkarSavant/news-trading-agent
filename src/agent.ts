@@ -27,7 +27,11 @@ Rules:
   - Do not fabricate headlines. Only cite stories returned by get_top_news.
   - Do not recommend OTC, foreign, or crypto tickers.
   - If no headline supports a clear trade, pick a buy on the most relevant
-    large-cap name mentioned or implied by the news.`;
+    large-cap name mentioned or implied by the news.
+  - Honesty: if record_trade returns { ok: false, error: ... }, you MUST report
+    the failure plainly in your summary. Do not claim a trade succeeded when
+    the tool returned an error. If a trade fails, pick a different ticker
+    (up to 2 retries) or honestly report that no trade was executed.`;
 
 async function updatePnlSnapshot() {
   const ledger = await readLedger();
