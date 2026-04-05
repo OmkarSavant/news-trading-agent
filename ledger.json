@@ -25,7 +25,7 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 6,
+      "shares": 7,
       "avg_cost": 160.69000000000003
     },
     "GOOGL": {
@@ -175,13 +175,20 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "The Guardian reports that the war in Iran is surging, which, coupled with Krugman's discussion on oil, suggests rising energy prices and geopolitical risk that typically benefits major oil producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-05T11:54:20.630Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "The Guardian reports that the war in Iran is \"surging on,\" which likely leads to sustained higher oil prices, benefiting major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-05T11:27:22.440Z",
-    "unrealized": 0,
-    "total": 0,
+    "ts": "2026-04-05T11:54:14.945Z",
+    "unrealized": -1.7053025658242404e-13,
+    "total": -1.7053025658242404e-13,
     "prices": {
       "WMT": 125.79,
       "AMZN": 209.77,
