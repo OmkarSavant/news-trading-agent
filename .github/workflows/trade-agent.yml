@@ -1,0 +1,48 @@
+name: trade-agent
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trade-agent
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run agent
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+          RAINDROP_WRITE_KEY: ${{ secrets.RAINDROP_WRITE_KEY }}
+          BRAINTRUST_API_KEY: ${{ secrets.BRAINTRUST_API_KEY }}
+          LAMINAR_PROJECT_API_KEY: ${{ secrets.LAMINAR_PROJECT_API_KEY }}
+        run: npx tsx src/agent.ts
+
+      - name: Commit ledger
+        run: |
+          git config user.name "trade-agent-bot"
+          git config user.email "trade-agent-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain ledger.json)" ]]; then
+            git add ledger.json
+            git commit -m "agent: update ledger ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "ledger unchanged, skipping commit"
+          fi

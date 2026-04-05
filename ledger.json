@@ -1,0 +1,174 @@
+{
+  "holdings": {
+    "WMT": {
+      "shares": 1,
+      "avg_cost": 125.79
+    },
+    "AMZN": {
+      "shares": 1,
+      "avg_cost": 209.77
+    },
+    "AAPL": {
+      "shares": 1,
+      "avg_cost": 255.92
+    },
+    "UNH": {
+      "shares": 1,
+      "avg_cost": 277.26
+    },
+    "BRK-B": {
+      "shares": 1,
+      "avg_cost": 477.35
+    },
+    "CVS": {
+      "shares": 1,
+      "avg_cost": 73.49
+    },
+    "XOM": {
+      "shares": 4,
+      "avg_cost": 160.69
+    },
+    "GOOGL": {
+      "shares": 1,
+      "avg_cost": 295.77
+    },
+    "MCK": {
+      "shares": 1,
+      "avg_cost": 884.28
+    },
+    "COR": {
+      "shares": 1,
+      "avg_cost": 324.8
+    },
+    "NVDA": {
+      "shares": 2,
+      "avg_cost": 177.39
+    }
+  },
+  "trades": [
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "WMT",
+      "price": 125.79,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 209.77,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "AAPL",
+      "price": 255.92,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "UNH",
+      "price": 277.26,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "BRK-B",
+      "price": 477.35,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "CVS",
+      "price": 73.49,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "GOOGL",
+      "price": 295.77,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "MCK",
+      "price": 884.28,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:14:00.150Z",
+      "action": "buy",
+      "ticker": "COR",
+      "price": 324.8,
+      "reason": "Seed position (Fortune 10)"
+    },
+    {
+      "ts": "2026-04-05T09:15:28.796Z",
+      "action": "buy",
+      "ticker": "NVDA",
+      "price": 177.39,
+      "reason": "Buying NVDA as a leading large-cap AI infrastructure provider, representing the most relevant sector-leading stock likely to be featured in business news headlines."
+    },
+    {
+      "ts": "2026-04-05T09:16:37.085Z",
+      "action": "buy",
+      "ticker": "NVDA",
+      "price": 177.39,
+      "reason": "As the news tool is currently unavailable due to a technical error, I am selecting NVDA as the most relevant large-cap name likely to be driving top business headlines and market sentiment."
+    },
+    {
+      "ts": "2026-04-05T09:17:40.039Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "Increasing exposure to energy as headlines from The Guardian and Daily Kos highlight surging war in Iran and discussions on oil, which typically drive up crude prices and benefit major oil producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-05T09:20:00.659Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "Expanding the position in Exxon Mobil as headlines from The Guardian report a surging war in Iran, a geopolitical event that typically drives up crude oil prices and benefits major energy producers."
+    },
+    {
+      "ts": "2026-04-05T09:23:33.740Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "Increasing exposure to the energy sector as The Guardian reports a surging war in Iran, a geopolitical development likely to drive up crude oil prices and benefit major producers like Exxon Mobil."
+    }
+  ],
+  "realized_pnl": 0,
+  "last_pnl_snapshot": {
+    "ts": "2026-04-05T09:23:28.773Z",
+    "unrealized": 0,
+    "total": 0,
+    "prices": {
+      "WMT": 125.79,
+      "AMZN": 209.77,
+      "AAPL": 255.92,
+      "UNH": 277.26,
+      "BRK-B": 477.35,
+      "CVS": 73.49,
+      "XOM": 160.69,
+      "GOOGL": 295.77,
+      "MCK": 884.28,
+      "COR": 324.8,
+      "NVDA": 177.39
+    }
+  }
+}
