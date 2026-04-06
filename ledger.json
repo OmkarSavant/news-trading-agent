@@ -57,8 +57,8 @@
       "avg_cost": 27.35
     },
     "JPM": {
-      "shares": 1,
-      "avg_cost": 296
+      "shares": 2,
+      "avg_cost": 295.685
     }
   },
   "trades": [
@@ -355,29 +355,36 @@
       "ticker": "UAL",
       "price": 92.23,
       "reason": "United Airlines is implementing permanent fare and fee increases to offset temporary fuel cost spikes, a strategic move that demonstrates pricing power and protects profit margins."
+    },
+    {
+      "ts": "2026-04-06T17:59:14.110Z",
+      "action": "buy",
+      "ticker": "JPM",
+      "price": 295.37,
+      "reason": "JPMorgan CEO Jamie Dimon warned that the war in Iran could drive inflation and interest rates higher, a macroeconomic environment where major banks like JPMorgan typically benefit from expanded net interest margins."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T17:02:20.279Z",
-    "unrealized": 35.599999999998715,
-    "total": 35.599999999998715,
+    "ts": "2026-04-06T17:59:05.007Z",
+    "unrealized": 25.55999999999913,
+    "total": 25.55999999999913,
     "prices": {
-      "WMT": 126.38,
-      "AMZN": 212.02,
-      "AAPL": 258.75,
-      "UNH": 282.5,
-      "BRK-B": 478.59,
-      "CVS": 73.69,
-      "XOM": 162.79,
-      "GOOGL": 298.76,
-      "MCK": 861.66,
-      "COR": 321.83,
-      "NVDA": 176.75,
-      "COST": 1015.46,
-      "UAL": 92.23,
-      "WBD": 27.43,
-      "JPM": 296.12
+      "WMT": 126.31,
+      "AMZN": 211.47,
+      "AAPL": 258.27,
+      "UNH": 281.07,
+      "BRK-B": 476.26,
+      "CVS": 73.45,
+      "XOM": 162.49,
+      "GOOGL": 298.97,
+      "MCK": 864.82,
+      "COR": 322.09,
+      "NVDA": 176.61,
+      "COST": 1017.91,
+      "UAL": 91.14,
+      "WBD": 27.41,
+      "JPM": 295.37
     }
   }
 }
