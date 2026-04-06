@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 21,
-      "avg_cost": 160.6976190476191
+      "shares": 22,
+      "avg_cost": 160.69727272727278
     },
     "GOOGL": {
       "shares": 1,
@@ -305,11 +305,18 @@
       "ticker": "AMZN",
       "price": 209.77,
       "reason": "Reuters reports robust US jobs data, signaling a resilient economy and strong consumer spending power which supports the growth outlook for major retailers like Amazon."
+    },
+    {
+      "ts": "2026-04-06T09:21:42.446Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 160.69,
+      "reason": "Oil prices are rising following Trump’s latest threats on Iran as reported by The New York Times, a geopolitical development that supports higher crude prices and benefits major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T07:59:53.639Z",
+    "ts": "2026-04-06T09:21:31.554Z",
     "unrealized": -0.1800000000011437,
     "total": -0.1800000000011437,
     "prices": {
