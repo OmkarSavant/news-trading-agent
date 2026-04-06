@@ -57,8 +57,8 @@
       "avg_cost": 27.35
     },
     "JPM": {
-      "shares": 2,
-      "avg_cost": 295.685
+      "shares": 3,
+      "avg_cost": 295.90333333333336
     }
   },
   "trades": [
@@ -362,29 +362,36 @@
       "ticker": "JPM",
       "price": 295.37,
       "reason": "JPMorgan CEO Jamie Dimon warned that the war in Iran could drive inflation and interest rates higher, a macroeconomic environment where major banks like JPMorgan typically benefit from expanded net interest margins."
+    },
+    {
+      "ts": "2026-04-06T19:16:10.007Z",
+      "action": "buy",
+      "ticker": "JPM",
+      "price": 296.34,
+      "reason": "JPMorgan CEO Jamie Dimon's warning about risks from war and rising inflation suggests a persistent high-rate environment, which typically bolsters net interest income for major financial institutions."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T17:59:05.007Z",
-    "unrealized": 25.55999999999913,
-    "total": 25.55999999999913,
+    "ts": "2026-04-06T19:16:01.653Z",
+    "unrealized": 33.129999999998915,
+    "total": 33.129999999998915,
     "prices": {
-      "WMT": 126.31,
-      "AMZN": 211.47,
-      "AAPL": 258.27,
-      "UNH": 281.07,
-      "BRK-B": 476.26,
-      "CVS": 73.45,
-      "XOM": 162.49,
-      "GOOGL": 298.97,
-      "MCK": 864.82,
-      "COR": 322.09,
-      "NVDA": 176.61,
-      "COST": 1017.91,
-      "UAL": 91.14,
-      "WBD": 27.41,
-      "JPM": 295.37
+      "WMT": 126.68,
+      "AMZN": 212.34,
+      "AAPL": 258.65,
+      "UNH": 281.26,
+      "BRK-B": 476.75,
+      "CVS": 73.43,
+      "XOM": 162.43,
+      "GOOGL": 300.32,
+      "MCK": 862.43,
+      "COR": 321.62,
+      "NVDA": 177.29,
+      "COST": 1019.72,
+      "UAL": 91.66,
+      "WBD": 27.43,
+      "JPM": 296.34
     }
   }
 }
