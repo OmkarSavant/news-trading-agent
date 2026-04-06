@@ -13,8 +13,8 @@
       "avg_cost": 257.985
     },
     "UNH": {
-      "shares": 1,
-      "avg_cost": 277.26
+      "shares": 2,
+      "avg_cost": 279.31
     },
     "BRK-B": {
       "shares": 1,
@@ -383,11 +383,18 @@
       "ticker": "JPM",
       "price": 295.45,
       "reason": "A key Fed official signaled a possible interest rate hike to combat inflation and rising gas prices, a macroeconomic outlook that typically strengthens the profit margins of major financial institutions like JPMorgan."
+    },
+    {
+      "ts": "2026-04-06T22:52:24.393Z",
+      "action": "buy",
+      "ticker": "UNH",
+      "price": 281.36,
+      "reason": "Medicare has finalized a 2.48% rate hike for private insurers in 2027, providing revenue clarity for major Medicare Advantage providers like UnitedHealth Group."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T21:49:12.016Z",
+    "ts": "2026-04-06T22:52:18.934Z",
     "unrealized": 43.95999999999879,
     "total": 43.95999999999879,
     "prices": {
