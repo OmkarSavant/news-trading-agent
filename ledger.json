@@ -53,8 +53,8 @@
       "avg_cost": 92.23
     },
     "WBD": {
-      "shares": 1,
-      "avg_cost": 27.32
+      "shares": 2,
+      "avg_cost": 27.35
     }
   },
   "trades": [
@@ -323,27 +323,35 @@
       "ticker": "WBD",
       "price": 27.32,
       "reason": "Paramount is reportedly nearing a deal for Gulf State funding to support an acquisition of Warner Bros. Discovery, signaling major consolidation in the media industry."
+    },
+    {
+      "ts": "2026-04-06T13:42:00.270Z",
+      "action": "buy",
+      "ticker": "WBD",
+      "price": 27.38,
+      "reason": "Gulf Funds have reportedly agreed to back Paramount’s $81 billion takeover of Warner Bros. Discovery, a major consolidation event that typically drives up the target company's share price."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T11:09:12.411Z",
-    "unrealized": -0.18000000000111527,
-    "total": -0.18000000000111527,
+    "ts": "2026-04-06T13:41:54.723Z",
+    "unrealized": -3.6600000000009096,
+    "total": -3.6600000000009096,
     "prices": {
-      "WMT": 125.79,
-      "AMZN": 209.77,
-      "AAPL": 255.92,
-      "UNH": 277.26,
-      "BRK-B": 477.35,
-      "CVS": 73.49,
-      "XOM": 160.69,
-      "GOOGL": 295.77,
-      "MCK": 884.28,
-      "COR": 324.8,
-      "NVDA": 177.39,
-      "COST": 1014.96,
-      "UAL": 92.21
+      "WMT": 126.13,
+      "AMZN": 210.72,
+      "AAPL": 257.35,
+      "UNH": 279.41,
+      "BRK-B": 478.25,
+      "CVS": 72.31,
+      "XOM": 161.84,
+      "GOOGL": 296.31,
+      "MCK": 862.27,
+      "COR": 321.3,
+      "NVDA": 176.51,
+      "COST": 1008.44,
+      "UAL": 91.96,
+      "WBD": 27.38
     }
   }
 }
