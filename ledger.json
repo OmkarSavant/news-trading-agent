@@ -51,6 +51,10 @@
     "UAL": {
       "shares": 1,
       "avg_cost": 92.23
+    },
+    "WBD": {
+      "shares": 1,
+      "avg_cost": 27.32
     }
   },
   "trades": [
@@ -312,13 +316,20 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "Oil prices are rising following Trump’s latest threats on Iran as reported by The New York Times, a geopolitical development that supports higher crude prices and benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-06T11:09:19.339Z",
+      "action": "buy",
+      "ticker": "WBD",
+      "price": 27.32,
+      "reason": "Paramount is reportedly nearing a deal for Gulf State funding to support an acquisition of Warner Bros. Discovery, signaling major consolidation in the media industry."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T09:21:31.554Z",
-    "unrealized": -0.1800000000011437,
-    "total": -0.1800000000011437,
+    "ts": "2026-04-06T11:09:12.411Z",
+    "unrealized": -0.18000000000111527,
+    "total": -0.18000000000111527,
     "prices": {
       "WMT": 125.79,
       "AMZN": 209.77,
