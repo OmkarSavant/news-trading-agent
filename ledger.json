@@ -5,8 +5,8 @@
       "avg_cost": 125.79
     },
     "AMZN": {
-      "shares": 2,
-      "avg_cost": 209.77
+      "shares": 3,
+      "avg_cost": 210.77666666666667
     },
     "AAPL": {
       "shares": 2,
@@ -369,29 +369,36 @@
       "ticker": "JPM",
       "price": 296.34,
       "reason": "JPMorgan CEO Jamie Dimon's warning about risks from war and rising inflation suggests a persistent high-rate environment, which typically bolsters net interest income for major financial institutions."
+    },
+    {
+      "ts": "2026-04-06T20:51:25.743Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 212.79,
+      "reason": "Amazon has reached an exclusive delivery deal with the U.S. Postal Service, a strategic partnership likely to enhance its logistics efficiency and reduce delivery costs."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T19:16:01.653Z",
-    "unrealized": 33.129999999998915,
-    "total": 33.129999999998915,
+    "ts": "2026-04-06T20:51:20.575Z",
+    "unrealized": 43.95999999999879,
+    "total": 43.95999999999879,
     "prices": {
-      "WMT": 126.68,
-      "AMZN": 212.34,
-      "AAPL": 258.65,
-      "UNH": 281.26,
-      "BRK-B": 476.75,
-      "CVS": 73.43,
-      "XOM": 162.43,
-      "GOOGL": 300.32,
-      "MCK": 862.43,
-      "COR": 321.62,
-      "NVDA": 177.29,
-      "COST": 1019.72,
-      "UAL": 91.66,
-      "WBD": 27.43,
-      "JPM": 296.34
+      "WMT": 126.79,
+      "AMZN": 212.79,
+      "AAPL": 258.86,
+      "UNH": 281.36,
+      "BRK-B": 476.38,
+      "CVS": 73.28,
+      "XOM": 163.37,
+      "GOOGL": 299.99,
+      "MCK": 856.77,
+      "COR": 320.96,
+      "NVDA": 177.64,
+      "COST": 1018.55,
+      "UAL": 90.97,
+      "WBD": 27.41,
+      "JPM": 295.45
     }
   }
 }
