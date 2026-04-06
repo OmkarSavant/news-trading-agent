@@ -5,7 +5,7 @@
       "avg_cost": 125.79
     },
     "AMZN": {
-      "shares": 1,
+      "shares": 2,
       "avg_cost": 209.77
     },
     "AAPL": {
@@ -298,13 +298,20 @@
       "ticker": "XOM",
       "price": 160.69,
       "reason": "Oil prices are rising following threats to strike Iran's infrastructure, a geopolitical development that supports higher crude prices and benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-06T08:00:04.530Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 209.77,
+      "reason": "Reuters reports robust US jobs data, signaling a resilient economy and strong consumer spending power which supports the growth outlook for major retailers like Amazon."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-06T06:05:18.058Z",
-    "unrealized": -0.1800000000007742,
-    "total": -0.1800000000007742,
+    "ts": "2026-04-06T07:59:53.639Z",
+    "unrealized": -0.1800000000011437,
+    "total": -0.1800000000011437,
     "prices": {
       "WMT": 125.79,
       "AMZN": 209.77,
