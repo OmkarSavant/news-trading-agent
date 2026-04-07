@@ -13,8 +13,8 @@
       "avg_cost": 257.985
     },
     "UNH": {
-      "shares": 4,
-      "avg_cost": 280.33500000000004
+      "shares": 5,
+      "avg_cost": 280.5400000000001
     },
     "BRK-B": {
       "shares": 1,
@@ -404,13 +404,20 @@
       "ticker": "UNH",
       "price": 281.36,
       "reason": "UnitedHealth and other health insurers are surging following the finalization of higher-than-expected Medicare Advantage payment rates for 2027, providing significant revenue clarity."
+    },
+    {
+      "ts": "2026-04-07T05:53:05.705Z",
+      "action": "buy",
+      "ticker": "UNH",
+      "price": 281.36,
+      "reason": "UnitedHealth Group shares are rising following the finalization of higher-than-expected Medicare Advantage payment rates for 2027, providing significant revenue clarity for health insurers."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-07T03:26:43.582Z",
-    "unrealized": 43.95999999999879,
-    "total": 43.95999999999879,
+    "ts": "2026-04-07T05:52:58.661Z",
+    "unrealized": 43.95999999999868,
+    "total": 43.95999999999868,
     "prices": {
       "WMT": 126.79,
       "AMZN": 212.79,
