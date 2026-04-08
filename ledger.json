@@ -49,8 +49,8 @@
       "avg_cost": 1014.96
     },
     "UAL": {
-      "shares": 2,
-      "avg_cost": 92.23
+      "shares": 3,
+      "avg_cost": 93.58666666666666
     },
     "WBD": {
       "shares": 2,
@@ -418,29 +418,36 @@
       "ticker": "XOM",
       "price": 163.91,
       "reason": "Oil prices are jumping and gas price growth expectations are spiking following increased geopolitical tensions between the U.S. and Iran, which directly benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-08T20:37:06.938Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 96.3,
+      "reason": "The U.S.-Iran ceasefire has caused oil prices to tumble, which is a major positive catalyst for United Airlines as it lowers fuel expenses, contributing to the broader market's 1,100-point surge."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-07T20:40:29.309Z",
-    "unrealized": 187.89999999999839,
-    "total": 187.89999999999839,
+    "ts": "2026-04-08T20:36:53.128Z",
+    "unrealized": 158.6499999999984,
+    "total": 158.6499999999984,
     "prices": {
-      "WMT": 122.49,
-      "AMZN": 213.77,
-      "AAPL": 253.5,
-      "UNH": 307.73,
-      "BRK-B": 478.08,
-      "CVS": 78.22,
-      "XOM": 163.91,
-      "GOOGL": 305.46,
-      "MCK": 856.62,
-      "COR": 320.89,
-      "NVDA": 178.1,
-      "COST": 1013.21,
-      "UAL": 89.29,
-      "WBD": 27.37,
-      "JPM": 297.4
+      "WMT": 127.26,
+      "AMZN": 221.25,
+      "AAPL": 258.9,
+      "UNH": 305.98,
+      "BRK-B": 479.75,
+      "CVS": 78.79,
+      "XOM": 156.22,
+      "GOOGL": 317.32,
+      "MCK": 871.18,
+      "COR": 324.93,
+      "NVDA": 182.08,
+      "COST": 1030.27,
+      "UAL": 96.3,
+      "WBD": 27.55,
+      "JPM": 307.97
     }
   }
 }
