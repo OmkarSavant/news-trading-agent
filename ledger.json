@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 23,
-      "avg_cost": 160.83695652173918
+      "shares": 24,
+      "avg_cost": 160.49000000000004
     },
     "GOOGL": {
       "shares": 1,
@@ -439,11 +439,18 @@
       "ticker": "WMT",
       "price": 126.77,
       "reason": "Surging inflation and record-low consumer sentiment reported by The Washington Post and CNN drive consumers toward value-oriented retailers like Walmart, making it a strong defensive play in the current macroeconomic environment."
+    },
+    {
+      "ts": "2026-04-11T20:25:42.027Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 152.51,
+      "reason": "The Axios headline reporting that March inflation has soared due to an \"Iran war price shock\" suggests that energy prices will remain elevated, benefiting major producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-10T20:29:12.794Z",
+    "ts": "2026-04-11T20:25:34.401Z",
     "unrealized": 110.3099999999981,
     "total": 110.3099999999981,
     "prices": {
