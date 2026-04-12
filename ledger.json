@@ -59,6 +59,10 @@
     "JPM": {
       "shares": 4,
       "avg_cost": 295.79
+    },
+    "MU": {
+      "shares": 1,
+      "avg_cost": 420.59
     }
   },
   "trades": [
@@ -446,13 +450,20 @@
       "ticker": "XOM",
       "price": 152.51,
       "reason": "The Axios headline reporting that March inflation has soared due to an \"Iran war price shock\" suggests that energy prices will remain elevated, benefiting major producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-12T20:28:49.133Z",
+      "action": "buy",
+      "ticker": "MU",
+      "price": 420.59,
+      "reason": "Seeking Alpha reports a strong bullish sentiment on Micron Technology, identifying it as a high-conviction buy as the global AI arms race intensifies demand for advanced memory solutions."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-11T20:25:34.401Z",
-    "unrealized": 110.3099999999981,
-    "total": 110.3099999999981,
+    "ts": "2026-04-12T20:28:42.584Z",
+    "unrealized": 110.30999999999838,
+    "total": 110.30999999999838,
     "prices": {
       "WMT": 126.77,
       "AMZN": 238.38,
