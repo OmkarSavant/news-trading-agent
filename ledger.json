@@ -49,8 +49,8 @@
       "avg_cost": 1014.96
     },
     "UAL": {
-      "shares": 3,
-      "avg_cost": 93.58666666666666
+      "shares": 4,
+      "avg_cost": 94.49
     },
     "WBD": {
       "shares": 2,
@@ -468,30 +468,38 @@
       "ticker": "MCD",
       "price": 304.51,
       "reason": "McDonald’s is entering the \"refreshers\" beverage market to compete with established players like Starbucks, a strategic expansion reported by The New York Times that could drive incremental sales and menu diversification."
+    },
+    {
+      "ts": "2026-04-14T20:45:50.650Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 97.2,
+      "reason": "United Airlines is reportedly pitching a merger with American Airlines, and market optimism regarding a potential U.S.-Iran deal suggests lower future fuel costs, both of which are positive catalysts for the stock."
     }
   ],
   "realized_pnl": 0,
   "last_pnl_snapshot": {
-    "ts": "2026-04-13T20:46:46.426Z",
-    "unrealized": 158.17999999999836,
-    "total": 158.17999999999836,
+    "ts": "2026-04-14T20:45:43.578Z",
+    "unrealized": 175.82999999999888,
+    "total": 175.82999999999888,
     "prices": {
-      "WMT": 124.57,
-      "AMZN": 239.89,
-      "AAPL": 259.2,
-      "UNH": 313,
-      "BRK-B": 480.19,
-      "CVS": 78.09,
-      "XOM": 152.64,
-      "GOOGL": 321.31,
-      "MCK": 864.57,
-      "COR": 319.12,
-      "NVDA": 189.31,
-      "COST": 980.85,
-      "UAL": 95.2,
-      "WBD": 27.39,
-      "JPM": 313.68,
-      "MU": 426.56
+      "WMT": 125.05,
+      "AMZN": 249.02,
+      "AAPL": 258.83,
+      "UNH": 314.19,
+      "BRK-B": 477.54,
+      "CVS": 77.62,
+      "XOM": 149.24,
+      "GOOGL": 332.91,
+      "MCK": 862.79,
+      "COR": 319.9,
+      "NVDA": 196.51,
+      "COST": 974.8,
+      "UAL": 97.2,
+      "WBD": 27.37,
+      "JPM": 311.12,
+      "MU": 465.66,
+      "MCD": 303.22
     }
   }
 }
