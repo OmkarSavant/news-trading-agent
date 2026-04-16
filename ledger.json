@@ -49,7 +49,7 @@
       "avg_cost": 1014.96
     },
     "UAL": {
-      "shares": 4,
+      "shares": 3,
       "avg_cost": 94.49
     },
     "WBD": {
@@ -482,31 +482,38 @@
       "ticker": "JPM",
       "price": 305.93,
       "reason": "I am selling JPMorgan Chase (JPM) following news that Trump has threatened to fire Fed Chair Jerome Powell, as such a move could undermine Federal Reserve independence and introduce significant volatility into interest rate policy and the banking sector."
+    },
+    {
+      "ts": "2026-04-16T20:42:13.656Z",
+      "action": "sell",
+      "ticker": "UAL",
+      "price": 95.03,
+      "reason": "The BBC reports a warning that Europe has \"maybe six weeks of jet fuel left,\" which indicates a looming supply crisis and potential cost spike that would negatively impact international carriers like United Airlines."
     }
   ],
-  "realized_pnl": 10.139999999999986,
+  "realized_pnl": 10.679999999999993,
   "last_pnl_snapshot": {
-    "ts": "2026-04-15T20:41:35.361Z",
-    "unrealized": 156.40999999999843,
-    "total": 156.40999999999843,
+    "ts": "2026-04-16T20:42:06.598Z",
+    "unrealized": 256.67999999999824,
+    "total": 266.81999999999823,
     "prices": {
-      "WMT": 124.76,
-      "AMZN": 248.5,
-      "AAPL": 266.43,
-      "UNH": 314.05,
-      "BRK-B": 474.09,
-      "CVS": 74.99,
-      "XOM": 149.01,
-      "GOOGL": 337.12,
-      "MCK": 863.42,
-      "COR": 317.58,
-      "NVDA": 198.87,
-      "COST": 984.75,
-      "UAL": 94.27,
-      "WBD": 27.2,
-      "JPM": 305.93,
-      "MU": 456.23,
-      "MCD": 306.26
+      "WMT": 124.82,
+      "AMZN": 249.7,
+      "AAPL": 263.4,
+      "UNH": 316.4,
+      "BRK-B": 475.12,
+      "CVS": 76.79,
+      "XOM": 151.98,
+      "GOOGL": 336.02,
+      "MCK": 867.34,
+      "COR": 322.37,
+      "NVDA": 198.35,
+      "COST": 987.21,
+      "UAL": 95.03,
+      "WBD": 27.39,
+      "JPM": 309.95,
+      "MU": 457.23,
+      "MCD": 306.96
     }
   }
 }
