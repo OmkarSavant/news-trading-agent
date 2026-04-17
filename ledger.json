@@ -49,7 +49,7 @@
       "avg_cost": 1014.96
     },
     "UAL": {
-      "shares": 3,
+      "shares": 2,
       "avg_cost": 94.49
     },
     "WBD": {
@@ -489,31 +489,38 @@
       "ticker": "UAL",
       "price": 95.03,
       "reason": "The BBC reports a warning that Europe has \"maybe six weeks of jet fuel left,\" which indicates a looming supply crisis and potential cost spike that would negatively impact international carriers like United Airlines."
+    },
+    {
+      "ts": "2026-04-17T20:38:50.665Z",
+      "action": "sell",
+      "ticker": "UAL",
+      "price": 101.8,
+      "reason": "Reuters reports that IATA is warning of potential summer flight cancellations in Europe due to a jet fuel shortage, a development that directly threatens the revenue and operations of international carriers like United Airlines."
     }
   ],
-  "realized_pnl": 10.679999999999993,
+  "realized_pnl": 17.989999999999995,
   "last_pnl_snapshot": {
-    "ts": "2026-04-16T20:42:06.598Z",
-    "unrealized": 256.67999999999824,
-    "total": 266.81999999999823,
+    "ts": "2026-04-17T20:38:42.625Z",
+    "unrealized": 243.0499999999987,
+    "total": 253.7299999999987,
     "prices": {
-      "WMT": 124.82,
-      "AMZN": 249.7,
-      "AAPL": 263.4,
-      "UNH": 316.4,
-      "BRK-B": 475.12,
-      "CVS": 76.79,
-      "XOM": 151.98,
-      "GOOGL": 336.02,
-      "MCK": 867.34,
-      "COR": 322.37,
-      "NVDA": 198.35,
-      "COST": 987.21,
-      "UAL": 95.03,
-      "WBD": 27.39,
-      "JPM": 309.95,
-      "MU": 457.23,
-      "MCD": 306.96
+      "WMT": 127.5,
+      "AMZN": 250.56,
+      "AAPL": 270.23,
+      "UNH": 324.63,
+      "BRK-B": 474.58,
+      "CVS": 77.3,
+      "XOM": 146.44,
+      "GOOGL": 341.68,
+      "MCK": 866.38,
+      "COR": 327.56,
+      "NVDA": 201.68,
+      "COST": 999.89,
+      "UAL": 101.8,
+      "WBD": 27.47,
+      "JPM": 310.29,
+      "MU": 455.07,
+      "MCD": 311.36
     }
   }
 }
