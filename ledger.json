@@ -48,10 +48,6 @@
       "shares": 1,
       "avg_cost": 1014.96
     },
-    "UAL": {
-      "shares": 1,
-      "avg_cost": 94.49
-    },
     "WBD": {
       "shares": 2,
       "avg_cost": 27.35
@@ -503,12 +499,19 @@
       "ticker": "UAL",
       "price": 101.8,
       "reason": "Axios reports the airline industry is facing a major shake-up due to high jet fuel costs, and Fortune reports United CEO Scott Kirby’s intention to acquire American Airlines, a move that introduces significant regulatory and financial uncertainty for the company."
+    },
+    {
+      "ts": "2026-04-19T20:30:34.374Z",
+      "action": "sell",
+      "ticker": "UAL",
+      "price": 101.8,
+      "reason": "The Washington Post reports that soaring jet fuel prices and shortages are threatening European travel, reinforcing the negative impact of high fuel costs and supply constraints on international carriers like United Airlines."
     }
   ],
-  "realized_pnl": 25.299999999999997,
+  "realized_pnl": 32.61,
   "last_pnl_snapshot": {
-    "ts": "2026-04-18T20:29:06.703Z",
-    "unrealized": 235.7399999999987,
+    "ts": "2026-04-19T20:30:24.484Z",
+    "unrealized": 228.4299999999987,
     "total": 253.7299999999987,
     "prices": {
       "WMT": 127.5,
