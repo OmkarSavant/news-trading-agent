@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 25,
-      "avg_cost": 159.97760000000005
+      "shares": 26,
+      "avg_cost": 159.53076923076927
     },
     "GOOGL": {
       "shares": 1,
@@ -513,30 +513,37 @@
       "ticker": "XOM",
       "price": 147.68,
       "reason": "Reuters reports renewed tensions between the U.S. and Iran, a geopolitical development that typically drives up oil prices and benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-21T20:43:09.268Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 148.36,
+      "reason": "CNBC reports that oil prices are jumping as fears mount that negotiations with Iran are breaking down, a development that typically benefits major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 32.61,
   "last_pnl_snapshot": {
-    "ts": "2026-04-20T20:39:38.144Z",
-    "unrealized": 231.1399999999989,
-    "total": 263.7499999999989,
+    "ts": "2026-04-21T20:43:02.462Z",
+    "unrealized": 306.6699999999985,
+    "total": 339.2799999999985,
     "prices": {
-      "WMT": 127.92,
-      "AMZN": 248.28,
-      "AAPL": 273.05,
-      "UNH": 323.48,
-      "BRK-B": 472.08,
-      "CVS": 76.58,
-      "XOM": 147.68,
-      "GOOGL": 337.42,
-      "MCK": 859.04,
-      "COR": 323.01,
-      "NVDA": 202.06,
-      "COST": 997.84,
-      "WBD": 27.42,
-      "JPM": 316.99,
-      "MU": 448.42,
-      "MCD": 306.94
+      "WMT": 129.6,
+      "AMZN": 249.91,
+      "AAPL": 266.17,
+      "UNH": 346.01,
+      "BRK-B": 468.5,
+      "CVS": 77.36,
+      "XOM": 148.36,
+      "GOOGL": 332.29,
+      "MCK": 842.25,
+      "COR": 312.39,
+      "NVDA": 199.88,
+      "COST": 1005.81,
+      "WBD": 27.31,
+      "JPM": 313,
+      "MU": 449.38,
+      "MCD": 301.84
     }
   }
 }
