@@ -63,6 +63,10 @@
     "MCD": {
       "shares": 1,
       "avg_cost": 304.51
+    },
+    "TSLA": {
+      "shares": 1,
+      "avg_cost": 387.51
     }
   },
   "trades": [
@@ -520,30 +524,37 @@
       "ticker": "XOM",
       "price": 148.36,
       "reason": "CNBC reports that oil prices are jumping as fears mount that negotiations with Iran are breaking down, a development that typically benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-04-22T20:46:16.874Z",
+      "action": "buy",
+      "ticker": "TSLA",
+      "price": 387.51,
+      "reason": "Tesla shares are rising after the company reported revenue and earnings per share that exceeded Wall Street's estimates, as reported by Business Insider."
     }
   ],
   "realized_pnl": 32.61,
   "last_pnl_snapshot": {
-    "ts": "2026-04-21T20:43:02.462Z",
-    "unrealized": 306.6699999999985,
-    "total": 339.2799999999985,
+    "ts": "2026-04-22T20:46:11.097Z",
+    "unrealized": 438.48999999999864,
+    "total": 471.09999999999866,
     "prices": {
-      "WMT": 129.6,
-      "AMZN": 249.91,
-      "AAPL": 266.17,
-      "UNH": 346.01,
-      "BRK-B": 468.5,
-      "CVS": 77.36,
-      "XOM": 148.36,
-      "GOOGL": 332.29,
-      "MCK": 842.25,
-      "COR": 312.39,
-      "NVDA": 199.88,
-      "COST": 1005.81,
-      "WBD": 27.31,
-      "JPM": 313,
-      "MU": 449.38,
-      "MCD": 301.84
+      "WMT": 129.98,
+      "AMZN": 255.36,
+      "AAPL": 273.17,
+      "UNH": 353.52,
+      "BRK-B": 465.4,
+      "CVS": 76.43,
+      "XOM": 149.5,
+      "GOOGL": 339.32,
+      "MCK": 829.23,
+      "COR": 308.3,
+      "NVDA": 202.5,
+      "COST": 1003.7,
+      "WBD": 27.33,
+      "JPM": 313.02,
+      "MU": 487.48,
+      "MCD": 300.07
     }
   }
 }
