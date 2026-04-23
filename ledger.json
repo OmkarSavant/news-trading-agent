@@ -67,6 +67,10 @@
     "TSLA": {
       "shares": 1,
       "avg_cost": 387.51
+    },
+    "INTC": {
+      "shares": 1,
+      "avg_cost": 66.78
     }
   },
   "trades": [
@@ -531,30 +535,38 @@
       "ticker": "TSLA",
       "price": 387.51,
       "reason": "Tesla shares are rising after the company reported revenue and earnings per share that exceeded Wall Street's estimates, as reported by Business Insider."
+    },
+    {
+      "ts": "2026-04-23T20:45:00.070Z",
+      "action": "buy",
+      "ticker": "INTC",
+      "price": 66.78,
+      "reason": "Intel stock is soaring following a Q1 earnings beat and a strong future outlook, signaling robust financial performance and positive momentum for the semiconductor giant."
     }
   ],
   "realized_pnl": 32.61,
   "last_pnl_snapshot": {
-    "ts": "2026-04-22T20:46:11.097Z",
-    "unrealized": 438.48999999999864,
-    "total": 471.09999999999866,
+    "ts": "2026-04-23T20:44:54.708Z",
+    "unrealized": 471.2399999999988,
+    "total": 503.84999999999883,
     "prices": {
-      "WMT": 129.98,
-      "AMZN": 255.36,
-      "AAPL": 273.17,
-      "UNH": 353.52,
-      "BRK-B": 465.4,
-      "CVS": 76.43,
-      "XOM": 149.5,
-      "GOOGL": 339.32,
-      "MCK": 829.23,
-      "COR": 308.3,
-      "NVDA": 202.5,
-      "COST": 1003.7,
-      "WBD": 27.33,
-      "JPM": 313.02,
-      "MU": 487.48,
-      "MCD": 300.07
+      "WMT": 132.03,
+      "AMZN": 255.08,
+      "AAPL": 273.43,
+      "UNH": 354.56,
+      "BRK-B": 470.55,
+      "CVS": 78.86,
+      "XOM": 150.53,
+      "GOOGL": 338.89,
+      "MCK": 836.1,
+      "COR": 311.39,
+      "NVDA": 199.64,
+      "COST": 1014.38,
+      "WBD": 26.9,
+      "JPM": 311.69,
+      "MU": 481.72,
+      "MCD": 302.53,
+      "TSLA": 373.72
     }
   }
 }
