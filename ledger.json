@@ -69,8 +69,8 @@
       "avg_cost": 387.51
     },
     "INTC": {
-      "shares": 1,
-      "avg_cost": 66.78
+      "shares": 2,
+      "avg_cost": 74.66
     }
   },
   "trades": [
@@ -542,31 +542,39 @@
       "ticker": "INTC",
       "price": 66.78,
       "reason": "Intel stock is soaring following a Q1 earnings beat and a strong future outlook, signaling robust financial performance and positive momentum for the semiconductor giant."
+    },
+    {
+      "ts": "2026-04-24T20:39:47.230Z",
+      "action": "buy",
+      "ticker": "INTC",
+      "price": 82.54,
+      "reason": "Intel stock is surging 23% and driving the Nasdaq to record highs following a strong earnings report, signaling massive positive momentum and optimism for its AI-driven growth."
     }
   ],
   "realized_pnl": 32.61,
   "last_pnl_snapshot": {
-    "ts": "2026-04-23T20:44:54.708Z",
-    "unrealized": 471.2399999999988,
-    "total": 503.84999999999883,
+    "ts": "2026-04-24T20:39:41.170Z",
+    "unrealized": 492.7099999999988,
+    "total": 525.3199999999988,
     "prices": {
-      "WMT": 132.03,
-      "AMZN": 255.08,
-      "AAPL": 273.43,
-      "UNH": 354.56,
-      "BRK-B": 470.55,
-      "CVS": 78.86,
-      "XOM": 150.53,
-      "GOOGL": 338.89,
-      "MCK": 836.1,
-      "COR": 311.39,
-      "NVDA": 199.64,
-      "COST": 1014.38,
-      "WBD": 26.9,
-      "JPM": 311.69,
-      "MU": 481.72,
-      "MCD": 302.53,
-      "TSLA": 373.72
+      "WMT": 129.92,
+      "AMZN": 263.99,
+      "AAPL": 271.06,
+      "UNH": 354.92,
+      "BRK-B": 469.32,
+      "CVS": 77.94,
+      "XOM": 148.91,
+      "GOOGL": 344.4,
+      "MCK": 828.11,
+      "COR": 308.19,
+      "NVDA": 208.27,
+      "COST": 1011.15,
+      "WBD": 27.07,
+      "JPM": 308.28,
+      "MU": 496.72,
+      "MCD": 299.36,
+      "TSLA": 376.3,
+      "INTC": 82.54
     }
   }
 }
