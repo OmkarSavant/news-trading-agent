@@ -5,7 +5,7 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 4,
+      "shares": 3,
       "avg_cost": 216.495
     },
     "AAPL": {
@@ -549,11 +549,18 @@
       "ticker": "INTC",
       "price": 82.54,
       "reason": "Intel stock is surging 23% and driving the Nasdaq to record highs following a strong earnings report, signaling massive positive momentum and optimism for its AI-driven growth."
+    },
+    {
+      "ts": "2026-04-25T20:32:15.749Z",
+      "action": "sell",
+      "ticker": "AMZN",
+      "price": 263.99,
+      "reason": "Yahoo Finance reports that recent job cuts across the Big Tech sector are being interpreted as a significant economic warning, suggesting potential weakness in the growth outlook for companies like Amazon."
     }
   ],
-  "realized_pnl": 32.61,
+  "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-24T20:39:41.170Z",
+    "ts": "2026-04-25T20:32:07.249Z",
     "unrealized": 492.7099999999988,
     "total": 525.3199999999988,
     "prices": {
