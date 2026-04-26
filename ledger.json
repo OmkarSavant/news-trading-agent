@@ -9,8 +9,8 @@
       "avg_cost": 216.495
     },
     "AAPL": {
-      "shares": 2,
-      "avg_cost": 257.985
+      "shares": 3,
+      "avg_cost": 262.3433333333333
     },
     "UNH": {
       "shares": 5,
@@ -556,13 +556,20 @@
       "ticker": "AMZN",
       "price": 263.99,
       "reason": "Yahoo Finance reports that recent job cuts across the Big Tech sector are being interpreted as a significant economic warning, suggesting potential weakness in the growth outlook for companies like Amazon."
+    },
+    {
+      "ts": "2026-04-26T20:32:16.940Z",
+      "action": "buy",
+      "ticker": "AAPL",
+      "price": 271.06,
+      "reason": "Bloomberg reports that Big Tech's $16 trillion earnings week is \"make-or-break\" for the market rally, while TechCrunch discusses Apple's future hardware strategy under John Ternus, making it a focal point for the upcoming volatility."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-25T20:32:07.249Z",
-    "unrealized": 492.7099999999988,
-    "total": 525.3199999999988,
+    "ts": "2026-04-26T20:32:05.142Z",
+    "unrealized": 445.21499999999867,
+    "total": 525.3199999999987,
     "prices": {
       "WMT": 129.92,
       "AMZN": 263.99,
