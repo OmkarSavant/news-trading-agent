@@ -71,6 +71,10 @@
     "INTC": {
       "shares": 2,
       "avg_cost": 74.66
+    },
+    "UAL": {
+      "shares": 1,
+      "avg_cost": 91.9
     }
   },
   "trades": [
@@ -563,32 +567,39 @@
       "ticker": "AAPL",
       "price": 271.06,
       "reason": "Bloomberg reports that Big Tech's $16 trillion earnings week is \"make-or-break\" for the market rally, while TechCrunch discusses Apple's future hardware strategy under John Ternus, making it a focal point for the upcoming volatility."
+    },
+    {
+      "ts": "2026-04-27T20:55:52.959Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 91.9,
+      "reason": "United Airlines CEO Scott Kirby announced that the pursuit of a merger with American Airlines is over, resolving the significant regulatory and integration uncertainty that had previously pressured the stock."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-26T20:32:05.142Z",
-    "unrealized": 445.21499999999867,
-    "total": 525.3199999999987,
+    "ts": "2026-04-27T20:55:38.222Z",
+    "unrealized": 461.14499999999873,
+    "total": 541.2499999999987,
     "prices": {
-      "WMT": 129.92,
-      "AMZN": 263.99,
-      "AAPL": 271.06,
-      "UNH": 354.92,
-      "BRK-B": 469.32,
-      "CVS": 77.94,
-      "XOM": 148.91,
-      "GOOGL": 344.4,
-      "MCK": 828.11,
-      "COR": 308.19,
-      "NVDA": 208.27,
-      "COST": 1011.15,
-      "WBD": 27.07,
-      "JPM": 308.28,
-      "MU": 496.72,
-      "MCD": 299.36,
-      "TSLA": 376.3,
-      "INTC": 82.54
+      "WMT": 127.59,
+      "AMZN": 261.12,
+      "AAPL": 267.61,
+      "UNH": 354.69,
+      "BRK-B": 472.81,
+      "CVS": 78.36,
+      "XOM": 148.19,
+      "GOOGL": 350.34,
+      "MCK": 828.32,
+      "COR": 310.16,
+      "NVDA": 216.61,
+      "COST": 998.01,
+      "WBD": 26.82,
+      "JPM": 311.63,
+      "MU": 524.56,
+      "MCD": 290.21,
+      "TSLA": 378.67,
+      "INTC": 84.99
     }
   }
 }
