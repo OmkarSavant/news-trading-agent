@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 3,
-      "avg_cost": 216.495
+      "shares": 4,
+      "avg_cost": 227.29625
     },
     "AAPL": {
       "shares": 3,
@@ -574,32 +574,40 @@
       "ticker": "UAL",
       "price": 91.9,
       "reason": "United Airlines CEO Scott Kirby announced that the pursuit of a merger with American Airlines is over, resolving the significant regulatory and integration uncertainty that had previously pressured the stock."
+    },
+    {
+      "ts": "2026-04-28T21:02:30.222Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 259.7,
+      "reason": "Amazon's cloud division, AWS, is expanding its AI capabilities by making OpenAI models and Codex available, which is a major catalyst for long-term growth in its high-margin cloud business."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-27T20:55:38.222Z",
-    "unrealized": 461.14499999999873,
-    "total": 541.2499999999987,
+    "ts": "2026-04-28T21:02:18.927Z",
+    "unrealized": 566.3449999999985,
+    "total": 646.4499999999986,
     "prices": {
       "WMT": 127.59,
-      "AMZN": 261.12,
-      "AAPL": 267.61,
-      "UNH": 354.69,
-      "BRK-B": 472.81,
-      "CVS": 78.36,
-      "XOM": 148.19,
-      "GOOGL": 350.34,
-      "MCK": 828.32,
-      "COR": 310.16,
-      "NVDA": 216.61,
-      "COST": 998.01,
-      "WBD": 26.82,
-      "JPM": 311.63,
-      "MU": 524.56,
-      "MCD": 290.21,
-      "TSLA": 378.67,
-      "INTC": 84.99
+      "AMZN": 259.7,
+      "AAPL": 270.71,
+      "UNH": 366.77,
+      "BRK-B": 478.16,
+      "CVS": 80.98,
+      "XOM": 150.56,
+      "GOOGL": 349.78,
+      "MCK": 835,
+      "COR": 311.99,
+      "NVDA": 213.17,
+      "COST": 994,
+      "WBD": 26.95,
+      "JPM": 311.45,
+      "MU": 504.29,
+      "MCD": 292.39,
+      "TSLA": 376.02,
+      "INTC": 84.52,
+      "UAL": 90.41
     }
   }
 }
