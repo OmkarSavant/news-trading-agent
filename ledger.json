@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 4,
-      "avg_cost": 227.29625
+      "shares": 5,
+      "avg_cost": 234.445
     },
     "AAPL": {
       "shares": 3,
@@ -581,33 +581,40 @@
       "ticker": "AMZN",
       "price": 259.7,
       "reason": "Amazon's cloud division, AWS, is expanding its AI capabilities by making OpenAI models and Codex available, which is a major catalyst for long-term growth in its high-margin cloud business."
+    },
+    {
+      "ts": "2026-04-29T20:56:51.741Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 263.04,
+      "reason": "Yahoo Finance reports that Amazon beat quarterly cloud growth estimates driven by strong AI demand, signaling continued momentum in its high-margin AWS division."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-28T21:02:18.927Z",
-    "unrealized": 566.3449999999985,
-    "total": 646.4499999999986,
+    "ts": "2026-04-29T20:56:47.800Z",
+    "unrealized": 706.8249999999987,
+    "total": 786.9299999999987,
     "prices": {
-      "WMT": 127.59,
-      "AMZN": 259.7,
-      "AAPL": 270.71,
-      "UNH": 366.77,
-      "BRK-B": 478.16,
-      "CVS": 80.98,
-      "XOM": 150.56,
-      "GOOGL": 349.78,
-      "MCK": 835,
-      "COR": 311.99,
-      "NVDA": 213.17,
-      "COST": 994,
-      "WBD": 26.95,
-      "JPM": 311.45,
-      "MU": 504.29,
-      "MCD": 292.39,
-      "TSLA": 376.02,
-      "INTC": 84.52,
-      "UAL": 90.41
+      "WMT": 128.01,
+      "AMZN": 263.04,
+      "AAPL": 270.17,
+      "UNH": 370.74,
+      "BRK-B": 475.38,
+      "CVS": 83.9,
+      "XOM": 154.67,
+      "GOOGL": 349.94,
+      "MCK": 822.63,
+      "COR": 311.43,
+      "NVDA": 209.25,
+      "COST": 998.67,
+      "WBD": 27.05,
+      "JPM": 309.25,
+      "MU": 518.46,
+      "MCD": 290.08,
+      "TSLA": 372.8,
+      "INTC": 94.75,
+      "UAL": 88.62
     }
   }
 }
