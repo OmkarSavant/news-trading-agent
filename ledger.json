@@ -29,8 +29,8 @@
       "avg_cost": 159.53076923076927
     },
     "GOOGL": {
-      "shares": 1,
-      "avg_cost": 295.77
+      "shares": 2,
+      "avg_cost": 340.28499999999997
     },
     "MCK": {
       "shares": 1,
@@ -588,33 +588,40 @@
       "ticker": "AMZN",
       "price": 263.04,
       "reason": "Yahoo Finance reports that Amazon beat quarterly cloud growth estimates driven by strong AI demand, signaling continued momentum in its high-margin AWS division."
+    },
+    {
+      "ts": "2026-04-30T20:53:43.665Z",
+      "action": "buy",
+      "ticker": "GOOGL",
+      "price": 384.8,
+      "reason": "Google (GOOGL) reported an \"earnings smasher\" and its cloud division is pulling ahead in the AI sector, leading Bank of America to raise its price target."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-29T20:56:47.800Z",
-    "unrealized": 706.8249999999987,
-    "total": 786.9299999999987,
+    "ts": "2026-04-30T20:53:38.087Z",
+    "unrealized": 750.4249999999994,
+    "total": 830.5299999999994,
     "prices": {
-      "WMT": 128.01,
-      "AMZN": 263.04,
-      "AAPL": 270.17,
-      "UNH": 370.74,
-      "BRK-B": 475.38,
-      "CVS": 83.9,
-      "XOM": 154.67,
-      "GOOGL": 349.94,
-      "MCK": 822.63,
-      "COR": 311.43,
-      "NVDA": 209.25,
-      "COST": 998.67,
+      "WMT": 131.93,
+      "AMZN": 265.06,
+      "AAPL": 271.35,
+      "UNH": 370.48,
+      "BRK-B": 473.6,
+      "CVS": 83.29,
+      "XOM": 154.33,
+      "GOOGL": 384.8,
+      "MCK": 815.2,
+      "COR": 308.01,
+      "NVDA": 199.57,
+      "COST": 1014.53,
       "WBD": 27.05,
-      "JPM": 309.25,
-      "MU": 518.46,
-      "MCD": 290.08,
-      "TSLA": 372.8,
-      "INTC": 94.75,
-      "UAL": 88.62
+      "JPM": 313.23,
+      "MU": 517.16,
+      "MCD": 293.59,
+      "TSLA": 381.63,
+      "INTC": 94.48,
+      "UAL": 90
     }
   }
 }
