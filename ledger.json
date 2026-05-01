@@ -41,8 +41,8 @@
       "avg_cost": 324.8
     },
     "NVDA": {
-      "shares": 3,
-      "avg_cost": 177.39
+      "shares": 4,
+      "avg_cost": 182.65499999999997
     },
     "COST": {
       "shares": 1,
@@ -595,33 +595,40 @@
       "ticker": "GOOGL",
       "price": 384.8,
       "reason": "Google (GOOGL) reported an \"earnings smasher\" and its cloud division is pulling ahead in the AI sector, leading Bank of America to raise its price target."
+    },
+    {
+      "ts": "2026-05-01T20:43:40.414Z",
+      "action": "buy",
+      "ticker": "NVDA",
+      "price": 198.45,
+      "reason": "Top AI companies have agreed to work with the Pentagon on secret data and Seeking Alpha reports that AI infrastructure stocks are poised to \"win big\" from a massive capex explosion among the Magnificent Seven."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-04-30T20:53:38.087Z",
-    "unrealized": 750.4249999999994,
-    "total": 830.5299999999994,
+    "ts": "2026-05-01T20:43:30.191Z",
+    "unrealized": 768.814999999999,
+    "total": 848.919999999999,
     "prices": {
-      "WMT": 131.93,
-      "AMZN": 265.06,
-      "AAPL": 271.35,
-      "UNH": 370.48,
-      "BRK-B": 473.6,
-      "CVS": 83.29,
-      "XOM": 154.33,
-      "GOOGL": 384.8,
-      "MCK": 815.2,
-      "COR": 308.01,
-      "NVDA": 199.57,
-      "COST": 1014.53,
-      "WBD": 27.05,
-      "JPM": 313.23,
-      "MU": 517.16,
-      "MCD": 293.59,
-      "TSLA": 381.63,
-      "INTC": 94.48,
-      "UAL": 90
+      "WMT": 131.6,
+      "AMZN": 268.26,
+      "AAPL": 280.14,
+      "UNH": 368.78,
+      "BRK-B": 473.01,
+      "CVS": 82.09,
+      "XOM": 152.75,
+      "GOOGL": 385.69,
+      "MCK": 814.02,
+      "COR": 304,
+      "NVDA": 198.45,
+      "COST": 1011.7,
+      "WBD": 26.97,
+      "JPM": 312.47,
+      "MU": 542.21,
+      "MCD": 286.64,
+      "TSLA": 390.82,
+      "INTC": 99.62,
+      "UAL": 92.52
     }
   }
 }
