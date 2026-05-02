@@ -9,8 +9,8 @@
       "avg_cost": 234.445
     },
     "AAPL": {
-      "shares": 3,
-      "avg_cost": 262.3433333333333
+      "shares": 4,
+      "avg_cost": 266.7925
     },
     "UNH": {
       "shares": 5,
@@ -602,11 +602,18 @@
       "ticker": "NVDA",
       "price": 198.45,
       "reason": "Top AI companies have agreed to work with the Pentagon on secret data and Seeking Alpha reports that AI infrastructure stocks are poised to \"win big\" from a massive capex explosion among the Magnificent Seven."
+    },
+    {
+      "ts": "2026-05-02T20:35:05.482Z",
+      "action": "buy",
+      "ticker": "AAPL",
+      "price": 280.14,
+      "reason": "At the Berkshire Hathaway annual meeting, Warren Buffett signaled strong confidence in Apple by asking CEO Tim Cook to take a bow, reinforcing the stock's status as a core long-term investment."
     }
   ],
   "realized_pnl": 80.105,
   "last_pnl_snapshot": {
-    "ts": "2026-05-01T20:43:30.191Z",
+    "ts": "2026-05-02T20:34:54.220Z",
     "unrealized": 768.814999999999,
     "total": 848.919999999999,
     "prices": {
