@@ -25,7 +25,7 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 26,
+      "shares": 25,
       "avg_cost": 159.53076923076927
     },
     "GOOGL": {
@@ -609,13 +609,20 @@
       "ticker": "AAPL",
       "price": 280.14,
       "reason": "At the Berkshire Hathaway annual meeting, Warren Buffett signaled strong confidence in Apple by asking CEO Tim Cook to take a bow, reinforcing the stock's status as a core long-term investment."
+    },
+    {
+      "ts": "2026-05-03T20:35:44.548Z",
+      "action": "sell",
+      "ticker": "XOM",
+      "price": 152.75,
+      "reason": "OPEC has signaled unity and pledged to boost oil output, a development that is expected to increase global supply and put downward pressure on crude prices, negatively impacting major energy producers like Exxon Mobil."
     }
   ],
-  "realized_pnl": 80.105,
+  "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-02T20:34:54.220Z",
-    "unrealized": 768.814999999999,
-    "total": 848.919999999999,
+    "ts": "2026-05-03T20:35:33.615Z",
+    "unrealized": 768.8149999999988,
+    "total": 848.9199999999988,
     "prices": {
       "WMT": 131.6,
       "AMZN": 268.26,
