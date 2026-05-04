@@ -73,8 +73,8 @@
       "avg_cost": 74.66
     },
     "UAL": {
-      "shares": 1,
-      "avg_cost": 91.9
+      "shares": 2,
+      "avg_cost": 90.985
     }
   },
   "trades": [
@@ -616,33 +616,40 @@
       "ticker": "XOM",
       "price": 152.75,
       "reason": "OPEC has signaled unity and pledged to boost oil output, a development that is expected to increase global supply and put downward pressure on crude prices, negatively impacting major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-05-04T21:02:05.757Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 90.07,
+      "reason": "CNBC reports that the demise of Spirit Airlines is expected to benefit major rivals by reducing industry competition and driving higher airfares, which serves as a positive catalyst for United Airlines."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-03T20:35:33.615Z",
-    "unrealized": 768.8149999999988,
-    "total": 848.9199999999988,
+    "ts": "2026-05-04T21:01:58.822Z",
+    "unrealized": 806.1457692307679,
+    "total": 879.4699999999987,
     "prices": {
-      "WMT": 131.6,
-      "AMZN": 268.26,
-      "AAPL": 280.14,
-      "UNH": 368.78,
-      "BRK-B": 473.01,
-      "CVS": 82.09,
-      "XOM": 152.75,
-      "GOOGL": 385.69,
-      "MCK": 814.02,
-      "COR": 304,
-      "NVDA": 198.45,
-      "COST": 1011.7,
-      "WBD": 26.97,
-      "JPM": 312.47,
-      "MU": 542.21,
-      "MCD": 286.64,
-      "TSLA": 390.82,
-      "INTC": 99.62,
-      "UAL": 92.52
+      "WMT": 130.33,
+      "AMZN": 272.05,
+      "AAPL": 276.83,
+      "UNH": 370.75,
+      "BRK-B": 468.52,
+      "CVS": 82.01,
+      "XOM": 153.69,
+      "GOOGL": 383.25,
+      "MCK": 807.85,
+      "COR": 303.66,
+      "NVDA": 198.48,
+      "COST": 1012.79,
+      "WBD": 26.96,
+      "JPM": 307.65,
+      "MU": 576.45,
+      "MCD": 284.1,
+      "TSLA": 392.51,
+      "INTC": 95.78,
+      "UAL": 90.07
     }
   }
 }
