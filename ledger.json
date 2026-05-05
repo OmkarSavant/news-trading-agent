@@ -75,6 +75,10 @@
     "UAL": {
       "shares": 2,
       "avg_cost": 90.985
+    },
+    "AMD": {
+      "shares": 1,
+      "avg_cost": 355.26
     }
   },
   "trades": [
@@ -623,33 +627,40 @@
       "ticker": "UAL",
       "price": 90.07,
       "reason": "CNBC reports that the demise of Spirit Airlines is expected to benefit major rivals by reducing industry competition and driving higher airfares, which serves as a positive catalyst for United Airlines."
+    },
+    {
+      "ts": "2026-05-05T20:57:01.107Z",
+      "action": "buy",
+      "ticker": "AMD",
+      "price": 355.26,
+      "reason": "AMD has released its Q1 2026 financial results, representing a major news-driven catalyst for the semiconductor sector and a key event for market participants."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-04T21:01:58.822Z",
-    "unrealized": 806.1457692307679,
-    "total": 879.4699999999987,
+    "ts": "2026-05-05T20:56:50.694Z",
+    "unrealized": 935.8557692307681,
+    "total": 1009.1799999999989,
     "prices": {
-      "WMT": 130.33,
-      "AMZN": 272.05,
-      "AAPL": 276.83,
-      "UNH": 370.75,
-      "BRK-B": 468.52,
-      "CVS": 82.01,
-      "XOM": 153.69,
-      "GOOGL": 383.25,
-      "MCK": 807.85,
-      "COR": 303.66,
-      "NVDA": 198.48,
-      "COST": 1012.79,
-      "WBD": 26.96,
-      "JPM": 307.65,
-      "MU": 576.45,
-      "MCD": 284.1,
-      "TSLA": 392.51,
-      "INTC": 95.78,
-      "UAL": 90.07
+      "WMT": 130.79,
+      "AMZN": 273.55,
+      "AAPL": 284.18,
+      "UNH": 363.87,
+      "BRK-B": 465.52,
+      "CVS": 80.69,
+      "XOM": 154.88,
+      "GOOGL": 388.43,
+      "MCK": 801.01,
+      "COR": 305.9,
+      "NVDA": 196.5,
+      "COST": 1016.42,
+      "WBD": 27.22,
+      "JPM": 309.4,
+      "MU": 640.2,
+      "MCD": 285.17,
+      "TSLA": 389.37,
+      "INTC": 108.15,
+      "UAL": 93.67
     }
   }
 }
