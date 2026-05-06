@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 25,
-      "avg_cost": 159.53076923076927
+      "shares": 26,
+      "avg_cost": 159.11381656804738
     },
     "GOOGL": {
       "shares": 2,
@@ -634,33 +634,41 @@
       "ticker": "AMD",
       "price": 355.26,
       "reason": "AMD has released its Q1 2026 financial results, representing a major news-driven catalyst for the semiconductor sector and a key event for market participants."
+    },
+    {
+      "ts": "2026-05-06T21:05:48.684Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 148.69,
+      "reason": "AP News reports that gasoline prices in the US have increased by 52% since the start of the Iran war, signaling a sustained high-price environment that benefits major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-05T20:56:50.694Z",
-    "unrealized": 935.8557692307681,
-    "total": 1009.1799999999989,
+    "ts": "2026-05-06T21:05:40.687Z",
+    "unrealized": 900.835769230768,
+    "total": 974.1599999999988,
     "prices": {
-      "WMT": 130.79,
-      "AMZN": 273.55,
-      "AAPL": 284.18,
-      "UNH": 363.87,
-      "BRK-B": 465.52,
-      "CVS": 80.69,
-      "XOM": 154.88,
-      "GOOGL": 388.43,
-      "MCK": 801.01,
-      "COR": 305.9,
-      "NVDA": 196.5,
-      "COST": 1016.42,
-      "WBD": 27.22,
-      "JPM": 309.4,
-      "MU": 640.2,
-      "MCD": 285.17,
-      "TSLA": 389.37,
-      "INTC": 108.15,
-      "UAL": 93.67
+      "WMT": 130.08,
+      "AMZN": 274.99,
+      "AAPL": 287.51,
+      "UNH": 367.28,
+      "BRK-B": 469.83,
+      "CVS": 86.86,
+      "XOM": 148.69,
+      "GOOGL": 398.04,
+      "MCK": 743.67,
+      "COR": 252.74,
+      "NVDA": 207.83,
+      "COST": 995.75,
+      "WBD": 27.2,
+      "JPM": 314.9,
+      "MU": 666.59,
+      "MCD": 284.1,
+      "TSLA": 398.73,
+      "INTC": 113.01,
+      "UAL": 100.04,
+      "AMD": 421.39
     }
   }
 }
