@@ -65,8 +65,8 @@
       "avg_cost": 304.51
     },
     "TSLA": {
-      "shares": 1,
-      "avg_cost": 387.51
+      "shares": 2,
+      "avg_cost": 399.65
     },
     "INTC": {
       "shares": 2,
@@ -641,34 +641,41 @@
       "ticker": "XOM",
       "price": 148.69,
       "reason": "AP News reports that gasoline prices in the US have increased by 52% since the start of the Iran war, signaling a sustained high-price environment that benefits major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-05-07T21:00:11.438Z",
+      "action": "buy",
+      "ticker": "TSLA",
+      "price": 411.79,
+      "reason": "EV interest is rising as a direct result of spiking gasoline prices, according to CNBC, positioning Tesla to benefit from shifting consumer preferences toward electric vehicles."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-06T21:05:40.687Z",
-    "unrealized": 900.835769230768,
-    "total": 974.1599999999988,
+    "ts": "2026-05-07T21:00:03.065Z",
+    "unrealized": 836.0457692307682,
+    "total": 909.369999999999,
     "prices": {
-      "WMT": 130.08,
-      "AMZN": 274.99,
-      "AAPL": 287.51,
-      "UNH": 367.28,
-      "BRK-B": 469.83,
-      "CVS": 86.86,
-      "XOM": 148.69,
-      "GOOGL": 398.04,
-      "MCK": 743.67,
-      "COR": 252.74,
-      "NVDA": 207.83,
-      "COST": 995.75,
-      "WBD": 27.2,
-      "JPM": 314.9,
-      "MU": 666.59,
-      "MCD": 284.1,
-      "TSLA": 398.73,
-      "INTC": 113.01,
-      "UAL": 100.04,
-      "AMD": 421.39
+      "WMT": 130.2,
+      "AMZN": 271.17,
+      "AAPL": 287.44,
+      "UNH": 369.74,
+      "BRK-B": 475.08,
+      "CVS": 87.36,
+      "XOM": 146.58,
+      "GOOGL": 397.99,
+      "MCK": 754.76,
+      "COR": 255.66,
+      "NVDA": 211.5,
+      "COST": 1012.06,
+      "WBD": 27.12,
+      "JPM": 306.27,
+      "MU": 646.63,
+      "MCD": 283.7,
+      "TSLA": 411.79,
+      "INTC": 109.62,
+      "UAL": 99.7,
+      "AMD": 408.46
     }
   }
 }
