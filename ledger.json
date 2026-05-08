@@ -69,8 +69,8 @@
       "avg_cost": 399.65
     },
     "INTC": {
-      "shares": 2,
-      "avg_cost": 74.66
+      "shares": 3,
+      "avg_cost": 91.41333333333334
     },
     "UAL": {
       "shares": 2,
@@ -648,34 +648,41 @@
       "ticker": "TSLA",
       "price": 411.79,
       "reason": "EV interest is rising as a direct result of spiking gasoline prices, according to CNBC, positioning Tesla to benefit from shifting consumer preferences toward electric vehicles."
+    },
+    {
+      "ts": "2026-05-08T20:52:23.304Z",
+      "action": "buy",
+      "ticker": "INTC",
+      "price": 124.92,
+      "reason": "The Wall Street Journal reports that Apple and Intel have reached a preliminary chip-making agreement, a significant validation of Intel's foundry business and a strategic positive for both companies."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-07T21:00:03.065Z",
-    "unrealized": 836.0457692307682,
-    "total": 909.369999999999,
+    "ts": "2026-05-08T20:52:17.124Z",
+    "unrealized": 1064.3757692307677,
+    "total": 1137.6999999999985,
     "prices": {
-      "WMT": 130.2,
-      "AMZN": 271.17,
-      "AAPL": 287.44,
-      "UNH": 369.74,
-      "BRK-B": 475.08,
-      "CVS": 87.36,
-      "XOM": 146.58,
-      "GOOGL": 397.99,
-      "MCK": 754.76,
-      "COR": 255.66,
-      "NVDA": 211.5,
-      "COST": 1012.06,
-      "WBD": 27.12,
-      "JPM": 306.27,
-      "MU": 646.63,
-      "MCD": 283.7,
-      "TSLA": 411.79,
-      "INTC": 109.62,
-      "UAL": 99.7,
-      "AMD": 408.46
+      "WMT": 130.43,
+      "AMZN": 272.68,
+      "AAPL": 293.32,
+      "UNH": 379.98,
+      "BRK-B": 475.94,
+      "CVS": 90.55,
+      "XOM": 144.57,
+      "GOOGL": 400.8,
+      "MCK": 736.09,
+      "COR": 261.08,
+      "NVDA": 215.2,
+      "COST": 1008.79,
+      "WBD": 27.11,
+      "JPM": 302.1,
+      "MU": 746.81,
+      "MCD": 275.75,
+      "TSLA": 428.35,
+      "INTC": 124.92,
+      "UAL": 99.58,
+      "AMD": 455.19
     }
   }
 }
