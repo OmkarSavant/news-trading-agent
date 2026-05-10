@@ -79,6 +79,10 @@
     "AMD": {
       "shares": 1,
       "avg_cost": 355.26
+    },
+    "QCOM": {
+      "shares": 1,
+      "avg_cost": 219.09
     }
   },
   "trades": [
@@ -662,13 +666,20 @@
       "ticker": "XOM",
       "price": 144.57,
       "reason": "Bloomberg reports that the war in Iran is draining the world's oil buffer at an unprecedented pace, suggesting a severe supply shortage that will likely drive crude prices higher and benefit major producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-05-10T20:40:57.965Z",
+      "action": "buy",
+      "ticker": "QCOM",
+      "price": 219.09,
+      "reason": "Qualcomm’s CEO announced the company is collaborating with nearly all major AI players on top-secret devices, positioning the chipmaker as a central partner in the next phase of AI hardware development."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-09T20:37:59.511Z",
-    "unrealized": 1064.3757692307677,
-    "total": 1137.6999999999985,
+    "ts": "2026-05-10T20:40:50.613Z",
+    "unrealized": 1064.3757692307681,
+    "total": 1137.699999999999,
     "prices": {
       "WMT": 130.43,
       "AMZN": 272.68,
