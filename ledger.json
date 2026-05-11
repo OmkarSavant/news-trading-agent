@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 27,
-      "avg_cost": 158.57515669515672
+      "shares": 28,
+      "avg_cost": 158.25747252747257
     },
     "GOOGL": {
       "shares": 2,
@@ -673,34 +673,42 @@
       "ticker": "QCOM",
       "price": 219.09,
       "reason": "Qualcomm’s CEO announced the company is collaborating with nearly all major AI players on top-secret devices, positioning the chipmaker as a central partner in the next phase of AI hardware development."
+    },
+    {
+      "ts": "2026-05-11T21:12:45.291Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 149.68,
+      "reason": "Major energy companies are reporting multi-billion dollar war-driven trading windfalls while a stalemate in US-Iran talks suggests continued support for elevated oil prices, benefitting Exxon Mobil."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-10T20:40:50.613Z",
-    "unrealized": 1064.3757692307681,
-    "total": 1137.699999999999,
+    "ts": "2026-05-11T21:12:38.159Z",
+    "unrealized": 1278.5657692307684,
+    "total": 1351.8899999999992,
     "prices": {
-      "WMT": 130.43,
-      "AMZN": 272.68,
-      "AAPL": 293.32,
-      "UNH": 379.98,
-      "BRK-B": 475.94,
-      "CVS": 90.55,
-      "XOM": 144.57,
-      "GOOGL": 400.8,
-      "MCK": 736.09,
-      "COR": 261.08,
-      "NVDA": 215.2,
-      "COST": 1008.79,
-      "WBD": 27.11,
-      "JPM": 302.1,
-      "MU": 746.81,
-      "MCD": 275.75,
-      "TSLA": 428.35,
-      "INTC": 124.92,
-      "UAL": 99.58,
-      "AMD": 455.19
+      "WMT": 127.59,
+      "AMZN": 268.99,
+      "AAPL": 292.68,
+      "UNH": 384.44,
+      "BRK-B": 479.55,
+      "CVS": 92.22,
+      "XOM": 149.68,
+      "GOOGL": 388.64,
+      "MCK": 725.17,
+      "COR": 259.7,
+      "NVDA": 219.44,
+      "COST": 999.47,
+      "WBD": 27.24,
+      "JPM": 300,
+      "MU": 795.33,
+      "MCD": 274.6,
+      "TSLA": 445,
+      "INTC": 129.44,
+      "UAL": 96.62,
+      "AMD": 458.79,
+      "QCOM": 237.53
     }
   }
 }
