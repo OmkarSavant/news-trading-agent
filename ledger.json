@@ -83,6 +83,10 @@
     "QCOM": {
       "shares": 1,
       "avg_cost": 219.09
+    },
+    "F": {
+      "shares": 1,
+      "avg_cost": 13.57
     }
   },
   "trades": [
@@ -687,35 +691,42 @@
       "ticker": "XOM",
       "price": 150.63,
       "reason": "US inflation has jumped to 3.8% driven by surging energy costs from the Iran war, a macroeconomic environment that directly benefits major oil producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-05-13T21:20:56.274Z",
+      "action": "buy",
+      "ticker": "F",
+      "price": 13.57,
+      "reason": "Ford shares are surging after Morgan Stanley issued a bullish outlook on the company's energy storage business, highlighting a significant new growth lever beyond traditional automotive sales."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-12T21:12:26.528Z",
-    "unrealized": 1304.5257692307675,
-    "total": 1377.8499999999983,
+    "ts": "2026-05-13T21:20:49.668Z",
+    "unrealized": 1504.995769230767,
+    "total": 1578.319999999998,
     "prices": {
-      "WMT": 130.35,
-      "AMZN": 265.82,
-      "AAPL": 294.8,
-      "UNH": 396.39,
-      "BRK-B": 484.96,
-      "CVS": 95.15,
-      "XOM": 150.63,
-      "GOOGL": 387.35,
-      "MCK": 734.69,
-      "COR": 260.93,
-      "NVDA": 220.78,
-      "COST": 1021.88,
-      "WBD": 27.2,
-      "JPM": 304.88,
-      "MU": 766.58,
-      "MCD": 274.84,
-      "TSLA": 433.45,
-      "INTC": 120.61,
-      "UAL": 95.84,
-      "AMD": 448.29,
-      "QCOM": 210.31
+      "WMT": 131.47,
+      "AMZN": 270.13,
+      "AAPL": 298.87,
+      "UNH": 401.16,
+      "BRK-B": 485.52,
+      "CVS": 98.11,
+      "XOM": 151.57,
+      "GOOGL": 402.62,
+      "MCK": 737.18,
+      "COR": 255.68,
+      "NVDA": 225.83,
+      "COST": 1033.08,
+      "WBD": 27.25,
+      "JPM": 300.25,
+      "MU": 803.63,
+      "MCD": 275.7,
+      "TSLA": 445.27,
+      "INTC": 120.29,
+      "UAL": 95.7,
+      "AMD": 445.5,
+      "QCOM": 213.17
     }
   }
 }
