@@ -41,8 +41,8 @@
       "avg_cost": 324.8
     },
     "NVDA": {
-      "shares": 4,
-      "avg_cost": 182.65499999999997
+      "shares": 5,
+      "avg_cost": 193.272
     },
     "COST": {
       "shares": 1,
@@ -698,35 +698,43 @@
       "ticker": "F",
       "price": 13.57,
       "reason": "Ford shares are surging after Morgan Stanley issued a bullish outlook on the company's energy storage business, highlighting a significant new growth lever beyond traditional automotive sales."
+    },
+    {
+      "ts": "2026-05-14T21:05:28.352Z",
+      "action": "buy",
+      "ticker": "NVDA",
+      "price": 235.74,
+      "reason": "Reuters reports that Nvidia's rally is powering the S&P 500 and Nasdaq to record highs, and the successful $350 opening of the Cerebras IPO further signals robust investor demand for semiconductor stocks."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-13T21:20:49.668Z",
-    "unrealized": 1504.995769230767,
-    "total": 1578.319999999998,
+    "ts": "2026-05-14T21:05:19.508Z",
+    "unrealized": 1518.3057692307675,
+    "total": 1591.6299999999983,
     "prices": {
-      "WMT": 131.47,
-      "AMZN": 270.13,
-      "AAPL": 298.87,
-      "UNH": 401.16,
-      "BRK-B": 485.52,
-      "CVS": 98.11,
-      "XOM": 151.57,
-      "GOOGL": 402.62,
-      "MCK": 737.18,
-      "COR": 255.68,
-      "NVDA": 225.83,
-      "COST": 1033.08,
-      "WBD": 27.25,
-      "JPM": 300.25,
-      "MU": 803.63,
-      "MCD": 275.7,
-      "TSLA": 445.27,
-      "INTC": 120.29,
-      "UAL": 95.7,
-      "AMD": 445.5,
-      "QCOM": 213.17
+      "WMT": 132.46,
+      "AMZN": 267.22,
+      "AAPL": 298.21,
+      "UNH": 399.09,
+      "BRK-B": 484.06,
+      "CVS": 97.15,
+      "XOM": 152.78,
+      "GOOGL": 401.07,
+      "MCK": 747.23,
+      "COR": 261.11,
+      "NVDA": 235.74,
+      "COST": 1041.25,
+      "WBD": 27.12,
+      "JPM": 299.91,
+      "MU": 776.01,
+      "MCD": 274.97,
+      "TSLA": 443.3,
+      "INTC": 115.93,
+      "UAL": 96.02,
+      "AMD": 449.7,
+      "QCOM": 200.08,
+      "F": 14.48
     }
   }
 }
