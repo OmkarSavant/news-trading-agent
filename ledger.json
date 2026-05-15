@@ -87,6 +87,10 @@
     "F": {
       "shares": 1,
       "avg_cost": 13.57
+    },
+    "MSFT": {
+      "shares": 1,
+      "avg_cost": 421.92
     }
   },
   "trades": [
@@ -705,36 +709,43 @@
       "ticker": "NVDA",
       "price": 235.74,
       "reason": "Reuters reports that Nvidia's rally is powering the S&P 500 and Nasdaq to record highs, and the successful $350 opening of the Cerebras IPO further signals robust investor demand for semiconductor stocks."
+    },
+    {
+      "ts": "2026-05-15T20:55:14.456Z",
+      "action": "buy",
+      "ticker": "MSFT",
+      "price": 421.92,
+      "reason": "Microsoft shares are rising after Bill Ackman's Pershing Square revealed a new position in the company, providing a significant high-profile endorsement as reported by Yahoo Finance."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-14T21:05:19.508Z",
-    "unrealized": 1518.3057692307675,
-    "total": 1591.6299999999983,
+    "ts": "2026-05-15T20:55:05.246Z",
+    "unrealized": 1434.4457692307674,
+    "total": 1507.7699999999982,
     "prices": {
-      "WMT": 132.46,
-      "AMZN": 267.22,
-      "AAPL": 298.21,
-      "UNH": 399.09,
-      "BRK-B": 484.06,
-      "CVS": 97.15,
-      "XOM": 152.78,
-      "GOOGL": 401.07,
-      "MCK": 747.23,
-      "COR": 261.11,
-      "NVDA": 235.74,
-      "COST": 1041.25,
-      "WBD": 27.12,
-      "JPM": 299.91,
-      "MU": 776.01,
-      "MCD": 274.97,
-      "TSLA": 443.3,
-      "INTC": 115.93,
-      "UAL": 96.02,
-      "AMD": 449.7,
-      "QCOM": 200.08,
-      "F": 14.48
+      "WMT": 131.45,
+      "AMZN": 264.14,
+      "AAPL": 300.23,
+      "UNH": 393.85,
+      "BRK-B": 482.7,
+      "CVS": 95.89,
+      "XOM": 157.92,
+      "GOOGL": 396.78,
+      "MCK": 760.57,
+      "COR": 257.71,
+      "NVDA": 225.32,
+      "COST": 1048.95,
+      "WBD": 26.98,
+      "JPM": 297.81,
+      "MU": 724.66,
+      "MCD": 276.39,
+      "TSLA": 422.24,
+      "INTC": 108.77,
+      "UAL": 92.85,
+      "AMD": 424.1,
+      "QCOM": 201.49,
+      "F": 13.4
     }
   }
 }
