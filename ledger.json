@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 29,
-      "avg_cost": 157.9944562334218
+      "shares": 30,
+      "avg_cost": 157.9919743589744
     },
     "GOOGL": {
       "shares": 2,
@@ -716,11 +716,18 @@
       "ticker": "MSFT",
       "price": 421.92,
       "reason": "Microsoft shares are rising after Bill Ackman's Pershing Square revealed a new position in the company, providing a significant high-profile endorsement as reported by Yahoo Finance."
+    },
+    {
+      "ts": "2026-05-16T20:39:55.025Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 157.92,
+      "reason": "The New York Times reports that certain entities are profiting heavily from the current \"war oil shock,\" a macroeconomic environment that continues to favor major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-15T20:55:05.246Z",
+    "ts": "2026-05-16T20:39:47.902Z",
     "unrealized": 1434.4457692307674,
     "total": 1507.7699999999982,
     "prices": {
@@ -745,7 +752,8 @@
       "UAL": 92.85,
       "AMD": 424.1,
       "QCOM": 201.49,
-      "F": 13.4
+      "F": 13.4,
+      "MSFT": 421.92
     }
   }
 }
