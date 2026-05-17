@@ -91,6 +91,10 @@
     "MSFT": {
       "shares": 1,
       "avg_cost": 421.92
+    },
+    "BLK": {
+      "shares": 1,
+      "avg_cost": 1081.9
     }
   },
   "trades": [
@@ -723,11 +727,18 @@
       "ticker": "XOM",
       "price": 157.92,
       "reason": "The New York Times reports that certain entities are profiting heavily from the current \"war oil shock,\" a macroeconomic environment that continues to favor major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-05-17T20:41:38.880Z",
+      "action": "buy",
+      "ticker": "BLK",
+      "price": 1081.9,
+      "reason": "The Information reports that BlackRock is weighing a multibillion-dollar investment in the SpaceX IPO, highlighting the asset manager's strategic move to capture high-growth private equity opportunities."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-16T20:39:47.902Z",
+    "ts": "2026-05-17T20:41:34.324Z",
     "unrealized": 1434.4457692307674,
     "total": 1507.7699999999982,
     "prices": {
