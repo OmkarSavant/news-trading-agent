@@ -95,6 +95,10 @@
     "BLK": {
       "shares": 1,
       "avg_cost": 1081.9
+    },
+    "D": {
+      "shares": 1,
+      "avg_cost": 67.56
     }
   },
   "trades": [
@@ -734,37 +738,45 @@
       "ticker": "BLK",
       "price": 1081.9,
       "reason": "The Information reports that BlackRock is weighing a multibillion-dollar investment in the SpaceX IPO, highlighting the asset manager's strategic move to capture high-growth private equity opportunities."
+    },
+    {
+      "ts": "2026-05-18T21:05:00.575Z",
+      "action": "buy",
+      "ticker": "D",
+      "price": 67.56,
+      "reason": "Dominion Energy is merging with NextEra Energy to create the world's largest electric utility, a major consolidation in the energy sector reported by OilPrice.com."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-17T20:41:34.324Z",
-    "unrealized": 1434.4457692307674,
-    "total": 1507.7699999999982,
+    "ts": "2026-05-18T21:04:54.068Z",
+    "unrealized": 1483.2757692307682,
+    "total": 1556.599999999999,
     "prices": {
-      "WMT": 131.45,
-      "AMZN": 264.14,
-      "AAPL": 300.23,
-      "UNH": 393.85,
-      "BRK-B": 482.7,
-      "CVS": 95.89,
-      "XOM": 157.92,
-      "GOOGL": 396.78,
-      "MCK": 760.57,
-      "COR": 257.71,
-      "NVDA": 225.32,
-      "COST": 1048.95,
-      "WBD": 26.98,
-      "JPM": 297.81,
-      "MU": 724.66,
-      "MCD": 276.39,
-      "TSLA": 422.24,
-      "INTC": 108.77,
-      "UAL": 92.85,
-      "AMD": 424.1,
-      "QCOM": 201.49,
-      "F": 13.4,
-      "MSFT": 421.92
+      "WMT": 133.34,
+      "AMZN": 264.86,
+      "AAPL": 297.84,
+      "UNH": 391.13,
+      "BRK-B": 488.38,
+      "CVS": 95.99,
+      "XOM": 160.49,
+      "GOOGL": 396.94,
+      "MCK": 775.97,
+      "COR": 261.87,
+      "NVDA": 222.32,
+      "COST": 1076.47,
+      "WBD": 27.1,
+      "JPM": 300.73,
+      "MU": 681.54,
+      "MCD": 282.47,
+      "TSLA": 409.99,
+      "INTC": 108.17,
+      "UAL": 92.55,
+      "AMD": 420.99,
+      "QCOM": 203.64,
+      "F": 13.03,
+      "MSFT": 423.54,
+      "BLK": 1085.88
     }
   }
 }
