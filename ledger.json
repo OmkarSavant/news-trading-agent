@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 5,
-      "avg_cost": 234.445
+      "shares": 6,
+      "avg_cost": 238.59416666666664
     },
     "AAPL": {
       "shares": 4,
@@ -745,38 +745,46 @@
       "ticker": "D",
       "price": 67.56,
       "reason": "Dominion Energy is merging with NextEra Energy to create the world's largest electric utility, a major consolidation in the energy sector reported by OilPrice.com."
+    },
+    {
+      "ts": "2026-05-19T21:13:31.492Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 259.34,
+      "reason": "OpenAI co-founder Andrej Karpathy joining Anthropic strengthens the talent at the AI firm, which is a significant positive for its major investor and cloud partner Amazon."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-18T21:04:54.068Z",
-    "unrealized": 1483.2757692307682,
-    "total": 1556.599999999999,
+    "ts": "2026-05-19T21:13:19.284Z",
+    "unrealized": 1405.1157692307677,
+    "total": 1478.4399999999985,
     "prices": {
-      "WMT": 133.34,
-      "AMZN": 264.86,
-      "AAPL": 297.84,
-      "UNH": 391.13,
-      "BRK-B": 488.38,
-      "CVS": 95.99,
-      "XOM": 160.49,
-      "GOOGL": 396.94,
-      "MCK": 775.97,
-      "COR": 261.87,
-      "NVDA": 222.32,
-      "COST": 1076.47,
-      "WBD": 27.1,
-      "JPM": 300.73,
-      "MU": 681.54,
-      "MCD": 282.47,
-      "TSLA": 409.99,
-      "INTC": 108.17,
-      "UAL": 92.55,
-      "AMD": 420.99,
-      "QCOM": 203.64,
-      "F": 13.03,
-      "MSFT": 423.54,
-      "BLK": 1085.88
+      "WMT": 134.2,
+      "AMZN": 259.34,
+      "AAPL": 298.97,
+      "UNH": 389.24,
+      "BRK-B": 480.46,
+      "CVS": 94.18,
+      "XOM": 162.55,
+      "GOOGL": 387.66,
+      "MCK": 761.89,
+      "COR": 266.17,
+      "NVDA": 220.61,
+      "COST": 1094.32,
+      "WBD": 27.09,
+      "JPM": 295.7,
+      "MU": 698.74,
+      "MCD": 280.8,
+      "TSLA": 404.11,
+      "INTC": 110.8,
+      "UAL": 89.12,
+      "AMD": 414.05,
+      "QCOM": 195.61,
+      "F": 13.06,
+      "MSFT": 417.42,
+      "BLK": 1036.3,
+      "D": 68.13
     }
   }
 }
