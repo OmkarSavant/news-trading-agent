@@ -41,8 +41,8 @@
       "avg_cost": 324.8
     },
     "NVDA": {
-      "shares": 5,
-      "avg_cost": 193.272
+      "shares": 6,
+      "avg_cost": 198.30499999999998
     },
     "COST": {
       "shares": 1,
@@ -752,39 +752,46 @@
       "ticker": "AMZN",
       "price": 259.34,
       "reason": "OpenAI co-founder Andrej Karpathy joining Anthropic strengthens the talent at the AI firm, which is a significant positive for its major investor and cloud partner Amazon."
+    },
+    {
+      "ts": "2026-05-20T21:46:44.148Z",
+      "action": "buy",
+      "ticker": "NVDA",
+      "price": 223.47,
+      "reason": "Nvidia is seeing positive price momentum and intense investor focus ahead of its upcoming earnings report, as highlighted by headlines from the Wall Street Journal and Business Insider."
     }
   ],
   "realized_pnl": 73.32423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-19T21:13:19.284Z",
-    "unrealized": 1405.1157692307677,
-    "total": 1478.4399999999985,
+    "ts": "2026-05-20T21:46:34.784Z",
+    "unrealized": 1395.0557692307677,
+    "total": 1468.3799999999985,
     "prices": {
-      "WMT": 134.2,
-      "AMZN": 259.34,
-      "AAPL": 298.97,
-      "UNH": 389.24,
-      "BRK-B": 480.46,
-      "CVS": 94.18,
-      "XOM": 162.55,
-      "GOOGL": 387.66,
-      "MCK": 761.89,
-      "COR": 266.17,
-      "NVDA": 220.61,
-      "COST": 1094.32,
-      "WBD": 27.09,
-      "JPM": 295.7,
-      "MU": 698.74,
-      "MCD": 280.8,
-      "TSLA": 404.11,
-      "INTC": 110.8,
-      "UAL": 89.12,
-      "AMD": 414.05,
-      "QCOM": 195.61,
-      "F": 13.06,
-      "MSFT": 417.42,
-      "BLK": 1036.3,
-      "D": 68.13
+      "WMT": 130.85,
+      "AMZN": 265.01,
+      "AAPL": 302.25,
+      "UNH": 383.3,
+      "BRK-B": 480.9,
+      "CVS": 93.28,
+      "XOM": 156.28,
+      "GOOGL": 388.91,
+      "MCK": 754.68,
+      "COR": 264.75,
+      "NVDA": 223.47,
+      "COST": 1074.01,
+      "WBD": 27.42,
+      "JPM": 301.98,
+      "MU": 731.99,
+      "MCD": 280.27,
+      "TSLA": 417.26,
+      "INTC": 118.96,
+      "UAL": 98.02,
+      "AMD": 447.58,
+      "QCOM": 202.51,
+      "F": 13.22,
+      "MSFT": 421.06,
+      "BLK": 1051.57,
+      "D": 67.73
     }
   }
 }
