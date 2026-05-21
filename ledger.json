@@ -1,7 +1,7 @@
 {
   "holdings": {
     "WMT": {
-      "shares": 2,
+      "shares": 1,
       "avg_cost": 126.28
     },
     "AMZN": {
@@ -759,39 +759,46 @@
       "ticker": "NVDA",
       "price": 223.47,
       "reason": "Nvidia is seeing positive price momentum and intense investor focus ahead of its upcoming earnings report, as highlighted by headlines from the Wall Street Journal and Business Insider."
+    },
+    {
+      "ts": "2026-05-21T21:23:13.928Z",
+      "action": "sell",
+      "ticker": "WMT",
+      "price": 121.34,
+      "reason": "Walmart warned that US shoppers are cutting back on spending as higher gasoline prices bite into consumer budgets, signaling potential revenue pressure for the retail giant."
     }
   ],
-  "realized_pnl": 73.32423076923074,
+  "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-20T21:46:34.784Z",
-    "unrealized": 1395.0557692307677,
-    "total": 1468.3799999999985,
+    "ts": "2026-05-21T21:23:05.292Z",
+    "unrealized": 1399.3157692307673,
+    "total": 1472.639999999998,
     "prices": {
-      "WMT": 130.85,
-      "AMZN": 265.01,
-      "AAPL": 302.25,
-      "UNH": 383.3,
-      "BRK-B": 480.9,
-      "CVS": 93.28,
-      "XOM": 156.28,
-      "GOOGL": 388.91,
-      "MCK": 754.68,
-      "COR": 264.75,
-      "NVDA": 223.47,
-      "COST": 1074.01,
-      "WBD": 27.42,
-      "JPM": 301.98,
-      "MU": 731.99,
-      "MCD": 280.27,
-      "TSLA": 417.26,
-      "INTC": 118.96,
-      "UAL": 98.02,
-      "AMD": 447.58,
-      "QCOM": 202.51,
-      "F": 13.22,
-      "MSFT": 421.06,
-      "BLK": 1051.57,
-      "D": 67.73
+      "WMT": 121.34,
+      "AMZN": 268.46,
+      "AAPL": 304.99,
+      "UNH": 382.48,
+      "BRK-B": 479.98,
+      "CVS": 93.32,
+      "XOM": 155.29,
+      "GOOGL": 387.66,
+      "MCK": 766.5,
+      "COR": 265.44,
+      "NVDA": 219.51,
+      "COST": 1050.45,
+      "WBD": 27.1,
+      "JPM": 303,
+      "MU": 762.1,
+      "MCD": 284.18,
+      "TSLA": 417.85,
+      "INTC": 118.5,
+      "UAL": 99.64,
+      "AMD": 449.59,
+      "QCOM": 213.41,
+      "F": 13.67,
+      "MSFT": 419.09,
+      "BLK": 1063.75,
+      "D": 68.29
     }
   }
 }
