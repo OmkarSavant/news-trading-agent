@@ -99,6 +99,10 @@
     "D": {
       "shares": 1,
       "avg_cost": 67.56
+    },
+    "IMAX": {
+      "shares": 1,
+      "avg_cost": 39.12
     }
   },
   "trades": [
@@ -766,39 +770,46 @@
       "ticker": "WMT",
       "price": 121.34,
       "reason": "Walmart warned that US shoppers are cutting back on spending as higher gasoline prices bite into consumer budgets, signaling potential revenue pressure for the retail giant."
+    },
+    {
+      "ts": "2026-05-22T21:04:44.697Z",
+      "action": "buy",
+      "ticker": "IMAX",
+      "price": 39.12,
+      "reason": "CNBC reports that Wall Street analysts consider IMAX a prime acquisition target, citing its unique position in the film industry as a catalyst for a potential sale."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-21T21:23:05.292Z",
-    "unrealized": 1399.3157692307673,
-    "total": 1472.639999999998,
+    "ts": "2026-05-22T21:04:38.237Z",
+    "unrealized": 1453.2457692307673,
+    "total": 1521.629999999998,
     "prices": {
-      "WMT": 121.34,
-      "AMZN": 268.46,
-      "AAPL": 304.99,
-      "UNH": 382.48,
-      "BRK-B": 479.98,
-      "CVS": 93.32,
-      "XOM": 155.29,
-      "GOOGL": 387.66,
-      "MCK": 766.5,
-      "COR": 265.44,
-      "NVDA": 219.51,
-      "COST": 1050.45,
-      "WBD": 27.1,
-      "JPM": 303,
-      "MU": 762.1,
-      "MCD": 284.18,
-      "TSLA": 417.85,
-      "INTC": 118.5,
-      "UAL": 99.64,
-      "AMD": 449.59,
-      "QCOM": 213.41,
-      "F": 13.67,
-      "MSFT": 419.09,
-      "BLK": 1063.75,
-      "D": 68.29
+      "WMT": 120.27,
+      "AMZN": 266.32,
+      "AAPL": 308.82,
+      "UNH": 388.47,
+      "BRK-B": 486.38,
+      "CVS": 93.26,
+      "XOM": 154.92,
+      "GOOGL": 382.97,
+      "MCK": 766.08,
+      "COR": 274.91,
+      "NVDA": 215.33,
+      "COST": 1028.24,
+      "WBD": 27.03,
+      "JPM": 306.38,
+      "MU": 751,
+      "MCD": 282.27,
+      "TSLA": 426.01,
+      "INTC": 119.84,
+      "UAL": 99.96,
+      "AMD": 467.51,
+      "QCOM": 238.16,
+      "F": 14.93,
+      "MSFT": 418.57,
+      "BLK": 1073,
+      "D": 67.67
     }
   }
 }
