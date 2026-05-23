@@ -103,6 +103,10 @@
     "IMAX": {
       "shares": 1,
       "avg_cost": 39.12
+    },
+    "UBER": {
+      "shares": 1,
+      "avg_cost": 71.82
     }
   },
   "trades": [
@@ -777,11 +781,18 @@
       "ticker": "IMAX",
       "price": 39.12,
       "reason": "CNBC reports that Wall Street analysts consider IMAX a prime acquisition target, citing its unique position in the film industry as a catalyst for a potential sale."
+    },
+    {
+      "ts": "2026-05-23T20:40:58.433Z",
+      "action": "buy",
+      "ticker": "UBER",
+      "price": 71.82,
+      "reason": "Uber has confirmed a takeover offer for Delivery Hero, signaling a strategic expansion and consolidation in the global delivery market that is likely to strengthen its competitive position."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-22T21:04:38.237Z",
+    "ts": "2026-05-23T20:40:49.224Z",
     "unrealized": 1453.2457692307673,
     "total": 1521.629999999998,
     "prices": {
@@ -809,7 +820,8 @@
       "F": 14.93,
       "MSFT": 418.57,
       "BLK": 1073,
-      "D": 67.67
+      "D": 67.67,
+      "IMAX": 39.12
     }
   }
 }
