@@ -73,8 +73,8 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 2,
-      "avg_cost": 90.985
+      "shares": 3,
+      "avg_cost": 93.97666666666667
     },
     "AMD": {
       "shares": 1,
@@ -788,11 +788,18 @@
       "ticker": "UBER",
       "price": 71.82,
       "reason": "Uber has confirmed a takeover offer for Delivery Hero, signaling a strategic expansion and consolidation in the global delivery market that is likely to strengthen its competitive position."
+    },
+    {
+      "ts": "2026-05-24T20:45:57.406Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 99.96,
+      "reason": "CNN reports that airfare prices have jumped but Americans are traveling this weekend anyway, demonstrating strong demand and pricing power for carriers like United Airlines."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-23T20:40:49.224Z",
+    "ts": "2026-05-24T20:45:48.866Z",
     "unrealized": 1453.2457692307673,
     "total": 1521.629999999998,
     "prices": {
@@ -821,7 +828,8 @@
       "MSFT": 418.57,
       "BLK": 1073,
       "D": 67.67,
-      "IMAX": 39.12
+      "IMAX": 39.12,
+      "UBER": 71.82
     }
   }
 }
