@@ -73,8 +73,8 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 3,
-      "avg_cost": 93.97666666666667
+      "shares": 4,
+      "avg_cost": 95.4725
     },
     "AMD": {
       "shares": 1,
@@ -795,11 +795,18 @@
       "ticker": "UAL",
       "price": 99.96,
       "reason": "CNN reports that airfare prices have jumped but Americans are traveling this weekend anyway, demonstrating strong demand and pricing power for carriers like United Airlines."
+    },
+    {
+      "ts": "2026-05-25T20:59:24.733Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 99.96,
+      "reason": "Oil prices are falling sharply on news of a possible Iran deal, which is a major positive catalyst for United Airlines as it significantly reduces fuel expenses and improves profit margins."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-24T20:45:48.866Z",
+    "ts": "2026-05-25T20:59:17.745Z",
     "unrealized": 1453.2457692307673,
     "total": 1521.629999999998,
     "prices": {
