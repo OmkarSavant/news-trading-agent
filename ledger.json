@@ -57,8 +57,8 @@
       "avg_cost": 295.79
     },
     "MU": {
-      "shares": 1,
-      "avg_cost": 420.59
+      "shares": 2,
+      "avg_cost": 658.235
     },
     "MCD": {
       "shares": 1,
@@ -802,41 +802,48 @@
       "ticker": "UAL",
       "price": 99.96,
       "reason": "Oil prices are falling sharply on news of a possible Iran deal, which is a major positive catalyst for United Airlines as it significantly reduces fuel expenses and improves profit margins."
+    },
+    {
+      "ts": "2026-05-26T21:38:44.130Z",
+      "action": "buy",
+      "ticker": "MU",
+      "price": 895.88,
+      "reason": "Micron (MU) has achieved a $1 trillion market capitalization with broad support from both Wall Street and political leadership, signaling continued momentum for the semiconductor giant."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-25T20:59:17.745Z",
-    "unrealized": 1453.2457692307673,
-    "total": 1521.629999999998,
+    "ts": "2026-05-26T21:38:37.991Z",
+    "unrealized": 1436.2657692307675,
+    "total": 1504.6499999999983,
     "prices": {
-      "WMT": 120.27,
-      "AMZN": 266.32,
-      "AAPL": 308.82,
-      "UNH": 388.47,
-      "BRK-B": 486.38,
-      "CVS": 93.26,
-      "XOM": 154.92,
-      "GOOGL": 382.97,
-      "MCK": 766.08,
-      "COR": 274.91,
-      "NVDA": 215.33,
-      "COST": 1028.24,
-      "WBD": 27.03,
-      "JPM": 306.38,
-      "MU": 751,
-      "MCD": 282.27,
-      "TSLA": 426.01,
-      "INTC": 119.84,
-      "UAL": 99.96,
-      "AMD": 467.51,
-      "QCOM": 238.16,
-      "F": 14.93,
-      "MSFT": 418.57,
-      "BLK": 1073,
-      "D": 67.67,
-      "IMAX": 39.12,
-      "UBER": 71.82
+      "WMT": 118.57,
+      "AMZN": 265.29,
+      "AAPL": 308.33,
+      "UNH": 376.86,
+      "BRK-B": 483.62,
+      "CVS": 90.73,
+      "XOM": 149.81,
+      "GOOGL": 388.88,
+      "MCK": 754.4,
+      "COR": 270.78,
+      "NVDA": 214.86,
+      "COST": 1002.93,
+      "WBD": 27,
+      "JPM": 306.74,
+      "MU": 895.88,
+      "MCD": 279.26,
+      "TSLA": 433.59,
+      "INTC": 123.52,
+      "UAL": 105.92,
+      "AMD": 503.89,
+      "QCOM": 248.82,
+      "F": 15.32,
+      "MSFT": 416.03,
+      "BLK": 1077.4,
+      "D": 67.28,
+      "IMAX": 40.61,
+      "UBER": 70.12
     }
   }
 }
