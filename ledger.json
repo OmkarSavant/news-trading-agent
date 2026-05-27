@@ -53,8 +53,8 @@
       "avg_cost": 27.35
     },
     "JPM": {
-      "shares": 3,
-      "avg_cost": 295.79
+      "shares": 4,
+      "avg_cost": 296.6625
     },
     "MU": {
       "shares": 2,
@@ -809,41 +809,48 @@
       "ticker": "MU",
       "price": 895.88,
       "reason": "Micron (MU) has achieved a $1 trillion market capitalization with broad support from both Wall Street and political leadership, signaling continued momentum for the semiconductor giant."
+    },
+    {
+      "ts": "2026-05-27T21:47:13.359Z",
+      "action": "buy",
+      "ticker": "JPM",
+      "price": 299.28,
+      "reason": "JPMorgan Chase CEO Jamie Dimon stated the bank could spend up to $20 billion on a new acquisition, signaling strong capital reserves and a clear intent for strategic expansion."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-26T21:38:37.991Z",
-    "unrealized": 1436.2657692307675,
-    "total": 1504.6499999999983,
+    "ts": "2026-05-27T21:47:05.203Z",
+    "unrealized": 1491.845769230768,
+    "total": 1560.2299999999987,
     "prices": {
-      "WMT": 118.57,
-      "AMZN": 265.29,
-      "AAPL": 308.33,
-      "UNH": 376.86,
-      "BRK-B": 483.62,
-      "CVS": 90.73,
-      "XOM": 149.81,
-      "GOOGL": 388.88,
-      "MCK": 754.4,
-      "COR": 270.78,
-      "NVDA": 214.86,
-      "COST": 1002.93,
-      "WBD": 27,
-      "JPM": 306.74,
-      "MU": 895.88,
-      "MCD": 279.26,
-      "TSLA": 433.59,
-      "INTC": 123.52,
-      "UAL": 105.92,
-      "AMD": 503.89,
-      "QCOM": 248.82,
-      "F": 15.32,
-      "MSFT": 416.03,
-      "BLK": 1077.4,
-      "D": 67.28,
-      "IMAX": 40.61,
-      "UBER": 70.12
+      "WMT": 118.54,
+      "AMZN": 271.85,
+      "AAPL": 310.85,
+      "UNH": 384.01,
+      "BRK-B": 479.92,
+      "CVS": 92.07,
+      "XOM": 147.9,
+      "GOOGL": 388.83,
+      "MCK": 756.47,
+      "COR": 267.01,
+      "NVDA": 212.6,
+      "COST": 1003.69,
+      "WBD": 27.14,
+      "JPM": 299.28,
+      "MU": 928.41,
+      "MCD": 280.92,
+      "TSLA": 440.36,
+      "INTC": 121.77,
+      "UAL": 112.62,
+      "AMD": 495.54,
+      "QCOM": 233.4,
+      "F": 15.88,
+      "MSFT": 412.67,
+      "BLK": 1070.34,
+      "D": 67.2,
+      "IMAX": 38.68,
+      "UBER": 70.73
     }
   }
 }
