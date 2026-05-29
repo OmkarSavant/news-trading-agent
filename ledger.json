@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 7,
-      "avg_cost": 243.65214285714282
+      "shares": 8,
+      "avg_cost": 247.025625
     },
     "AAPL": {
       "shares": 4,
@@ -823,41 +823,48 @@
       "ticker": "AMZN",
       "price": 274,
       "reason": "Anthropic's valuation has surged to $965 billion, surpassing OpenAI, which significantly boosts the value of Amazon's strategic investment in the AI startup and its integration into AWS."
+    },
+    {
+      "ts": "2026-05-29T21:48:42.872Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 270.64,
+      "reason": "Bloomberg reports that Anthropic's latest funding round has minted multi-billionaire founders, further validating the massive valuation of the AI startup in which Amazon is a lead investor and strategic cloud partner."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-28T21:51:20.350Z",
-    "unrealized": 1491.8357692307675,
-    "total": 1560.2199999999982,
+    "ts": "2026-05-29T21:48:34.856Z",
+    "unrealized": 1410.1457692307672,
+    "total": 1478.529999999998,
     "prices": {
-      "WMT": 118.9,
-      "AMZN": 274,
-      "AAPL": 312.51,
-      "UNH": 382.53,
-      "BRK-B": 477.42,
-      "CVS": 92.97,
-      "XOM": 146.96,
-      "GOOGL": 390.13,
-      "MCK": 756.98,
-      "COR": 267.71,
-      "NVDA": 214.25,
-      "COST": 995.2,
-      "WBD": 27.04,
-      "JPM": 296.73,
-      "MU": 923.52,
-      "MCD": 277.97,
-      "TSLA": 442.1,
-      "INTC": 120.89,
-      "UAL": 115.06,
-      "AMD": 518.09,
-      "QCOM": 243.29,
-      "F": 16.65,
-      "MSFT": 426.99,
-      "BLK": 1046.49,
-      "D": 67.38,
-      "IMAX": 39.23,
-      "UBER": 70.92
+      "WMT": 115.75,
+      "AMZN": 270.64,
+      "AAPL": 312.06,
+      "UNH": 380.31,
+      "BRK-B": 474.48,
+      "CVS": 90.98,
+      "XOM": 145.26,
+      "GOOGL": 380.34,
+      "MCK": 742.44,
+      "COR": 269.36,
+      "NVDA": 211.14,
+      "COST": 956.32,
+      "WBD": 27.01,
+      "JPM": 299.31,
+      "MU": 971,
+      "MCD": 279.2,
+      "TSLA": 435.79,
+      "INTC": 114.68,
+      "UAL": 114.8,
+      "AMD": 516.1,
+      "QCOM": 251.02,
+      "F": 17.44,
+      "MSFT": 450.24,
+      "BLK": 1046.88,
+      "D": 66.94,
+      "IMAX": 39.68,
+      "UBER": 70.4
     }
   }
 }
