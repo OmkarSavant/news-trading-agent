@@ -73,8 +73,8 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 4,
-      "avg_cost": 95.4725
+      "shares": 5,
+      "avg_cost": 99.338
     },
     "AMD": {
       "shares": 1,
@@ -830,11 +830,18 @@
       "ticker": "AMZN",
       "price": 270.64,
       "reason": "Bloomberg reports that Anthropic's latest funding round has minted multi-billionaire founders, further validating the massive valuation of the AI startup in which Amazon is a lead investor and strategic cloud partner."
+    },
+    {
+      "ts": "2026-05-30T20:48:59.688Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 114.8,
+      "reason": "The Wall Street Journal reports that declining oil prices are lifting stocks to fresh records, a development that significantly reduces fuel expenses and enhances profit margins for major carriers like United Airlines."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-29T21:48:34.856Z",
+    "ts": "2026-05-30T20:48:52.366Z",
     "unrealized": 1410.1457692307672,
     "total": 1478.529999999998,
     "prices": {
