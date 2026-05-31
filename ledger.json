@@ -65,8 +65,8 @@
       "avg_cost": 304.51
     },
     "TSLA": {
-      "shares": 2,
-      "avg_cost": 399.65
+      "shares": 3,
+      "avg_cost": 411.69666666666666
     },
     "INTC": {
       "shares": 3,
@@ -837,11 +837,18 @@
       "ticker": "UAL",
       "price": 114.8,
       "reason": "The Wall Street Journal reports that declining oil prices are lifting stocks to fresh records, a development that significantly reduces fuel expenses and enhances profit margins for major carriers like United Airlines."
+    },
+    {
+      "ts": "2026-05-31T20:52:04.167Z",
+      "action": "buy",
+      "ticker": "TSLA",
+      "price": 435.79,
+      "reason": "Speculation regarding a potential merger between SpaceX and Tesla, which could automatically trigger a $1T pay package for Elon Musk, serves as a significant corporate catalyst for Tesla's stock."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-30T20:48:52.366Z",
+    "ts": "2026-05-31T20:51:58.483Z",
     "unrealized": 1410.1457692307672,
     "total": 1478.529999999998,
     "prices": {
