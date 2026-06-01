@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 8,
-      "avg_cost": 247.025625
+      "shares": 9,
+      "avg_cost": 248.60722222222225
     },
     "AAPL": {
       "shares": 4,
@@ -844,41 +844,48 @@
       "ticker": "TSLA",
       "price": 435.79,
       "reason": "Speculation regarding a potential merger between SpaceX and Tesla, which could automatically trigger a $1T pay package for Elon Musk, serves as a significant corporate catalyst for Tesla's stock."
+    },
+    {
+      "ts": "2026-06-01T22:31:14.862Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 261.26,
+      "reason": "Anthropic's filing for a preliminary IPO, as reported by NPR, serves as a significant positive catalyst for Amazon, which is a lead investor and strategic partner, likely resulting in a substantial valuation markup for Amazon's stake."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-05-31T20:51:58.483Z",
-    "unrealized": 1410.1457692307672,
-    "total": 1478.529999999998,
+    "ts": "2026-06-01T22:31:01.722Z",
+    "unrealized": 1458.295769230768,
+    "total": 1526.6799999999987,
     "prices": {
-      "WMT": 115.75,
-      "AMZN": 270.64,
-      "AAPL": 312.06,
-      "UNH": 380.31,
-      "BRK-B": 474.48,
-      "CVS": 90.98,
-      "XOM": 145.26,
-      "GOOGL": 380.34,
-      "MCK": 742.44,
-      "COR": 269.36,
-      "NVDA": 211.14,
-      "COST": 956.32,
-      "WBD": 27.01,
-      "JPM": 299.31,
-      "MU": 971,
-      "MCD": 279.2,
-      "TSLA": 435.79,
-      "INTC": 114.68,
-      "UAL": 114.8,
-      "AMD": 516.1,
-      "QCOM": 251.02,
-      "F": 17.44,
-      "MSFT": 450.24,
-      "BLK": 1046.88,
-      "D": 66.94,
-      "IMAX": 39.68,
-      "UBER": 70.4
+      "WMT": 114.6,
+      "AMZN": 261.26,
+      "AAPL": 306.31,
+      "UNH": 379.86,
+      "BRK-B": 470.29,
+      "CVS": 90.62,
+      "XOM": 149.38,
+      "GOOGL": 376.37,
+      "MCK": 734.82,
+      "COR": 264.69,
+      "NVDA": 224.36,
+      "COST": 946.11,
+      "WBD": 27.25,
+      "JPM": 296.58,
+      "MU": 1035.5,
+      "MCD": 276.11,
+      "TSLA": 415.88,
+      "INTC": 109.33,
+      "UAL": 111.76,
+      "AMD": 510.13,
+      "QCOM": 228.99,
+      "F": 16.63,
+      "MSFT": 460.52,
+      "BLK": 1020.73,
+      "D": 64.61,
+      "IMAX": 40.49,
+      "UBER": 73.77
     }
   }
 }
