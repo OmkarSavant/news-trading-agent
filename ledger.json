@@ -93,8 +93,8 @@
       "avg_cost": 421.92
     },
     "BLK": {
-      "shares": 1,
-      "avg_cost": 1081.9
+      "shares": 2,
+      "avg_cost": 1050.43
     },
     "D": {
       "shares": 1,
@@ -851,41 +851,48 @@
       "ticker": "AMZN",
       "price": 261.26,
       "reason": "Anthropic's filing for a preliminary IPO, as reported by NPR, serves as a significant positive catalyst for Amazon, which is a lead investor and strategic partner, likely resulting in a substantial valuation markup for Amazon's stake."
+    },
+    {
+      "ts": "2026-06-02T22:19:04.267Z",
+      "action": "buy",
+      "ticker": "BLK",
+      "price": 1018.96,
+      "reason": "Reuters reports that SpaceX is targeting a record $1.75 trillion valuation for its IPO, which significantly validates the investment strategy of BlackRock, a major asset manager previously reported to be seeking a multibillion-dollar stake in the company."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-06-01T22:31:01.722Z",
-    "unrealized": 1458.295769230768,
-    "total": 1526.6799999999987,
+    "ts": "2026-06-02T22:18:56.767Z",
+    "unrealized": 1498.4757692307671,
+    "total": 1566.8599999999979,
     "prices": {
-      "WMT": 114.6,
-      "AMZN": 261.26,
-      "AAPL": 306.31,
-      "UNH": 379.86,
-      "BRK-B": 470.29,
-      "CVS": 90.62,
-      "XOM": 149.38,
-      "GOOGL": 376.37,
-      "MCK": 734.82,
-      "COR": 264.69,
-      "NVDA": 224.36,
-      "COST": 946.11,
-      "WBD": 27.25,
-      "JPM": 296.58,
-      "MU": 1035.5,
-      "MCD": 276.11,
-      "TSLA": 415.88,
-      "INTC": 109.33,
-      "UAL": 111.76,
-      "AMD": 510.13,
-      "QCOM": 228.99,
-      "F": 16.63,
-      "MSFT": 460.52,
-      "BLK": 1020.73,
-      "D": 64.61,
-      "IMAX": 40.49,
-      "UBER": 73.77
+      "WMT": 113.06,
+      "AMZN": 256.52,
+      "AAPL": 315.2,
+      "UNH": 377.92,
+      "BRK-B": 471.51,
+      "CVS": 89.5,
+      "XOM": 149.56,
+      "GOOGL": 361.85,
+      "MCK": 736.78,
+      "COR": 264.84,
+      "NVDA": 222.82,
+      "COST": 954.27,
+      "WBD": 27.18,
+      "JPM": 300.96,
+      "MU": 1064.1,
+      "MCD": 276.36,
+      "TSLA": 423.74,
+      "INTC": 107.93,
+      "UAL": 108.82,
+      "AMD": 521.54,
+      "QCOM": 240.84,
+      "F": 16.15,
+      "MSFT": 441.31,
+      "BLK": 1018.96,
+      "D": 66.47,
+      "IMAX": 40.5,
+      "UBER": 71.62
     }
   }
 }
