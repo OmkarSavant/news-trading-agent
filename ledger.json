@@ -25,8 +25,8 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 30,
-      "avg_cost": 157.9919743589744
+      "shares": 31,
+      "avg_cost": 157.81578163771715
     },
     "GOOGL": {
       "shares": 2,
@@ -858,41 +858,48 @@
       "ticker": "BLK",
       "price": 1018.96,
       "reason": "Reuters reports that SpaceX is targeting a record $1.75 trillion valuation for its IPO, which significantly validates the investment strategy of BlackRock, a major asset manager previously reported to be seeking a multibillion-dollar stake in the company."
+    },
+    {
+      "ts": "2026-06-03T22:25:47.046Z",
+      "action": "buy",
+      "ticker": "XOM",
+      "price": 152.53,
+      "reason": "CNBC reports that rising oil prices are pressuring the broader market, creating a favorable environment for major energy producers like Exxon Mobil."
     }
   ],
   "realized_pnl": 68.38423076923074,
   "last_pnl_snapshot": {
-    "ts": "2026-06-02T22:18:56.767Z",
-    "unrealized": 1498.4757692307671,
-    "total": 1566.8599999999979,
+    "ts": "2026-06-03T22:25:34.399Z",
+    "unrealized": 1449.235769230767,
+    "total": 1517.6199999999976,
     "prices": {
-      "WMT": 113.06,
-      "AMZN": 256.52,
-      "AAPL": 315.2,
-      "UNH": 377.92,
-      "BRK-B": 471.51,
-      "CVS": 89.5,
-      "XOM": 149.56,
-      "GOOGL": 361.85,
-      "MCK": 736.78,
-      "COR": 264.84,
-      "NVDA": 222.82,
-      "COST": 954.27,
-      "WBD": 27.18,
-      "JPM": 300.96,
-      "MU": 1064.1,
-      "MCD": 276.36,
-      "TSLA": 423.74,
-      "INTC": 107.93,
-      "UAL": 108.82,
-      "AMD": 521.54,
-      "QCOM": 240.84,
-      "F": 16.15,
-      "MSFT": 441.31,
-      "BLK": 1018.96,
-      "D": 66.47,
-      "IMAX": 40.5,
-      "UBER": 71.62
+      "WMT": 116.89,
+      "AMZN": 250.02,
+      "AAPL": 310.26,
+      "UNH": 377,
+      "BRK-B": 475.37,
+      "CVS": 91.37,
+      "XOM": 152.53,
+      "GOOGL": 358.99,
+      "MCK": 739.53,
+      "COR": 263.64,
+      "NVDA": 214.75,
+      "COST": 961.83,
+      "WBD": 27,
+      "JPM": 300.85,
+      "MU": 1079.57,
+      "MCD": 273.29,
+      "TSLA": 423.7,
+      "INTC": 112.71,
+      "UAL": 105.14,
+      "AMD": 542.52,
+      "QCOM": 250.01,
+      "F": 15.71,
+      "MSFT": 427.34,
+      "BLK": 990.87,
+      "D": 65.46,
+      "IMAX": 38.98,
+      "UBER": 71.69
     }
   }
 }
