@@ -41,7 +41,7 @@
       "avg_cost": 324.8
     },
     "NVDA": {
-      "shares": 6,
+      "shares": 5,
       "avg_cost": 198.30499999999998
     },
     "COST": {
@@ -865,41 +865,48 @@
       "ticker": "XOM",
       "price": 152.53,
       "reason": "CNBC reports that rising oil prices are pressuring the broader market, creating a favorable environment for major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-06-04T21:27:19.319Z",
+      "action": "sell",
+      "ticker": "NVDA",
+      "price": 218.66,
+      "reason": "Investors are rotating away from tech names as the Dow surges nearly 900 points to a record close, signaling potential profit-taking and a shift in market leadership away from high-growth stocks like NVIDIA."
     }
   ],
-  "realized_pnl": 68.38423076923074,
+  "realized_pnl": 88.73923076923076,
   "last_pnl_snapshot": {
-    "ts": "2026-06-03T22:25:34.399Z",
-    "unrealized": 1449.235769230767,
-    "total": 1517.6199999999976,
+    "ts": "2026-06-04T21:27:06.339Z",
+    "unrealized": 1552.7957692307675,
+    "total": 1621.1799999999982,
     "prices": {
-      "WMT": 116.89,
-      "AMZN": 250.02,
-      "AAPL": 310.26,
-      "UNH": 377,
-      "BRK-B": 475.37,
-      "CVS": 91.37,
-      "XOM": 152.53,
-      "GOOGL": 358.99,
-      "MCK": 739.53,
-      "COR": 263.64,
-      "NVDA": 214.75,
-      "COST": 961.83,
+      "WMT": 117.74,
+      "AMZN": 253.79,
+      "AAPL": 311.23,
+      "UNH": 396.47,
+      "BRK-B": 478.63,
+      "CVS": 94.82,
+      "XOM": 152.04,
+      "GOOGL": 372.19,
+      "MCK": 756.95,
+      "COR": 270.32,
+      "NVDA": 218.66,
+      "COST": 972.35,
       "WBD": 27,
-      "JPM": 300.85,
-      "MU": 1079.57,
-      "MCD": 273.29,
-      "TSLA": 423.7,
-      "INTC": 112.71,
-      "UAL": 105.14,
-      "AMD": 542.52,
-      "QCOM": 250.01,
-      "F": 15.71,
-      "MSFT": 427.34,
-      "BLK": 990.87,
-      "D": 65.46,
-      "IMAX": 38.98,
-      "UBER": 71.69
+      "JPM": 310.89,
+      "MU": 996,
+      "MCD": 272.72,
+      "TSLA": 418.45,
+      "INTC": 111.78,
+      "UAL": 104.94,
+      "AMD": 523.2,
+      "QCOM": 242.57,
+      "F": 15.34,
+      "MSFT": 428.05,
+      "BLK": 1022.56,
+      "D": 66.5,
+      "IMAX": 39.1,
+      "UBER": 72.21
     }
   }
 }
