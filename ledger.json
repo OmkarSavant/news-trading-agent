@@ -41,7 +41,7 @@
       "avg_cost": 324.8
     },
     "NVDA": {
-      "shares": 5,
+      "shares": 4,
       "avg_cost": 198.30499999999998
     },
     "COST": {
@@ -872,41 +872,48 @@
       "ticker": "NVDA",
       "price": 218.66,
       "reason": "Investors are rotating away from tech names as the Dow surges nearly 900 points to a record close, signaling potential profit-taking and a shift in market leadership away from high-growth stocks like NVIDIA."
+    },
+    {
+      "ts": "2026-06-05T21:19:54.096Z",
+      "action": "sell",
+      "ticker": "NVDA",
+      "price": 205.1,
+      "reason": "A resilient U.S. job market is fueling rate-hike fears and a broad tech sell-off, making it prudent to reduce exposure to high-valuation semiconductor leaders like NVIDIA."
     }
   ],
-  "realized_pnl": 88.73923076923076,
+  "realized_pnl": 95.53423076923077,
   "last_pnl_snapshot": {
-    "ts": "2026-06-04T21:27:06.339Z",
-    "unrealized": 1552.7957692307675,
-    "total": 1621.1799999999982,
+    "ts": "2026-06-05T21:19:45.097Z",
+    "unrealized": 836.7907692307672,
+    "total": 925.5299999999979,
     "prices": {
-      "WMT": 117.74,
-      "AMZN": 253.79,
-      "AAPL": 311.23,
-      "UNH": 396.47,
-      "BRK-B": 478.63,
-      "CVS": 94.82,
-      "XOM": 152.04,
-      "GOOGL": 372.19,
-      "MCK": 756.95,
-      "COR": 270.32,
-      "NVDA": 218.66,
-      "COST": 972.35,
-      "WBD": 27,
-      "JPM": 310.89,
-      "MU": 996,
-      "MCD": 272.72,
-      "TSLA": 418.45,
-      "INTC": 111.78,
-      "UAL": 104.94,
-      "AMD": 523.2,
-      "QCOM": 242.57,
-      "F": 15.34,
-      "MSFT": 428.05,
-      "BLK": 1022.56,
-      "D": 66.5,
-      "IMAX": 39.1,
-      "UBER": 72.21
+      "WMT": 118.88,
+      "AMZN": 246.03,
+      "AAPL": 307.34,
+      "UNH": 399.47,
+      "BRK-B": 488.13,
+      "CVS": 95.93,
+      "XOM": 149.92,
+      "GOOGL": 368.53,
+      "MCK": 775.66,
+      "COR": 275.04,
+      "NVDA": 205.1,
+      "COST": 971.87,
+      "WBD": 26.24,
+      "JPM": 312.37,
+      "MU": 864.01,
+      "MCD": 279.84,
+      "TSLA": 391,
+      "INTC": 99.17,
+      "UAL": 105.73,
+      "AMD": 466.38,
+      "QCOM": 215.94,
+      "F": 14.9,
+      "MSFT": 416.67,
+      "BLK": 995.6,
+      "D": 66.9,
+      "IMAX": 38.97,
+      "UBER": 70.71
     }
   }
 }
