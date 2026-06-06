@@ -93,8 +93,8 @@
       "avg_cost": 421.92
     },
     "BLK": {
-      "shares": 2,
-      "avg_cost": 1050.43
+      "shares": 3,
+      "avg_cost": 1032.1533333333334
     },
     "D": {
       "shares": 1,
@@ -879,13 +879,20 @@
       "ticker": "NVDA",
       "price": 205.1,
       "reason": "A resilient U.S. job market is fueling rate-hike fears and a broad tech sell-off, making it prudent to reduce exposure to high-valuation semiconductor leaders like NVIDIA."
+    },
+    {
+      "ts": "2026-06-06T20:57:28.080Z",
+      "action": "buy",
+      "ticker": "BLK",
+      "price": 995.6,
+      "reason": "The anticipated SpaceX IPO, which Yahoo Finance reports will have a major impact on the S&P 500 and Nasdaq-100, reinforces the strategic value of BlackRock's reported multibillion-dollar investment interest in the company."
     }
   ],
   "realized_pnl": 95.53423076923077,
   "last_pnl_snapshot": {
-    "ts": "2026-06-05T21:19:45.097Z",
-    "unrealized": 836.7907692307672,
-    "total": 925.5299999999979,
+    "ts": "2026-06-06T20:57:21.040Z",
+    "unrealized": 829.9957692307673,
+    "total": 925.5299999999982,
     "prices": {
       "WMT": 118.88,
       "AMZN": 246.03,
