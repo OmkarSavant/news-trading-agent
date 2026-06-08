@@ -73,7 +73,7 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 5,
+      "shares": 4,
       "avg_cost": 99.338
     },
     "AMD": {
@@ -893,41 +893,48 @@
       "ticker": "XOM",
       "price": 149.92,
       "reason": "OPEC+ has approved its fourth oil output quota hike, signaling an increase in global supply that is expected to put downward pressure on crude prices and impact the profit margins of major producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-06-08T21:45:59.754Z",
+      "action": "sell",
+      "ticker": "UAL",
+      "price": 105.32,
+      "reason": "AP News reports that global airline profit forecasts have been cut nearly in half due to massive fuel expenditures, signaling significant margin pressure for carriers like United Airlines."
     }
   ],
-  "realized_pnl": 87.63844913151361,
+  "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-07T21:04:06.017Z",
-    "unrealized": 829.9957692307672,
-    "total": 925.529999999998,
+    "ts": "2026-06-08T21:45:52.428Z",
+    "unrealized": 1160.9715508684847,
+    "total": 1248.6099999999983,
     "prices": {
-      "WMT": 118.88,
-      "AMZN": 246.03,
-      "AAPL": 307.34,
-      "UNH": 399.47,
-      "BRK-B": 488.13,
-      "CVS": 95.93,
-      "XOM": 149.92,
-      "GOOGL": 368.53,
-      "MCK": 775.66,
-      "COR": 275.04,
-      "NVDA": 205.1,
-      "COST": 971.87,
-      "WBD": 26.24,
-      "JPM": 312.37,
-      "MU": 864.01,
-      "MCD": 279.84,
-      "TSLA": 391,
-      "INTC": 99.17,
-      "UAL": 105.73,
-      "AMD": 466.38,
-      "QCOM": 215.94,
-      "F": 14.9,
-      "MSFT": 416.67,
-      "BLK": 995.6,
-      "D": 66.9,
-      "IMAX": 38.97,
-      "UBER": 70.71
+      "WMT": 119.83,
+      "AMZN": 245.22,
+      "AAPL": 301.54,
+      "UNH": 406.57,
+      "BRK-B": 487,
+      "CVS": 97.08,
+      "XOM": 151.75,
+      "GOOGL": 363.31,
+      "MCK": 766.64,
+      "COR": 274.08,
+      "NVDA": 208.64,
+      "COST": 974.75,
+      "WBD": 26.47,
+      "JPM": 311.11,
+      "MU": 949.28,
+      "MCD": 277.78,
+      "TSLA": 408.95,
+      "INTC": 110.27,
+      "UAL": 105.32,
+      "AMD": 490.33,
+      "QCOM": 217.77,
+      "F": 15,
+      "MSFT": 411.74,
+      "BLK": 994.77,
+      "D": 65.52,
+      "IMAX": 39.12,
+      "UBER": 70.06
     }
   }
 }
