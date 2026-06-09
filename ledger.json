@@ -5,8 +5,8 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 9,
-      "avg_cost": 248.60722222222225
+      "shares": 10,
+      "avg_cost": 248.1655
     },
     "AAPL": {
       "shares": 4,
@@ -900,41 +900,48 @@
       "ticker": "UAL",
       "price": 105.32,
       "reason": "AP News reports that global airline profit forecasts have been cut nearly in half due to massive fuel expenditures, signaling significant margin pressure for carriers like United Airlines."
+    },
+    {
+      "ts": "2026-06-09T21:47:32.533Z",
+      "action": "buy",
+      "ticker": "AMZN",
+      "price": 244.19,
+      "reason": "Anthropic's release of Claude Fable 5 and Claude Mythos 5 marks a major advancement in generative AI, providing a significant positive catalyst for Amazon as a lead investor and strategic partner that hosts these models on its AWS platform."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-08T21:45:52.428Z",
-    "unrealized": 1160.9715508684847,
-    "total": 1248.6099999999983,
+    "ts": "2026-06-09T21:47:25.692Z",
+    "unrealized": 1041.1945508684846,
+    "total": 1134.8149999999982,
     "prices": {
-      "WMT": 119.83,
-      "AMZN": 245.22,
-      "AAPL": 301.54,
-      "UNH": 406.57,
-      "BRK-B": 487,
-      "CVS": 97.08,
-      "XOM": 151.75,
-      "GOOGL": 363.31,
-      "MCK": 766.64,
-      "COR": 274.08,
-      "NVDA": 208.64,
-      "COST": 974.75,
-      "WBD": 26.47,
-      "JPM": 311.11,
-      "MU": 949.28,
-      "MCD": 277.78,
-      "TSLA": 408.95,
-      "INTC": 110.27,
-      "UAL": 105.32,
-      "AMD": 490.33,
-      "QCOM": 217.77,
-      "F": 15,
-      "MSFT": 411.74,
-      "BLK": 994.77,
-      "D": 65.52,
-      "IMAX": 39.12,
-      "UBER": 70.06
+      "WMT": 118.88,
+      "AMZN": 244.19,
+      "AAPL": 290.55,
+      "UNH": 413,
+      "BRK-B": 487.77,
+      "CVS": 97.06,
+      "XOM": 148.91,
+      "GOOGL": 364.26,
+      "MCK": 784.23,
+      "COR": 279.57,
+      "NVDA": 208.19,
+      "COST": 968.59,
+      "WBD": 26.56,
+      "JPM": 312.7,
+      "MU": 935.89,
+      "MCD": 282.25,
+      "TSLA": 396.68,
+      "INTC": 107.92,
+      "UAL": 109.63,
+      "AMD": 475.505,
+      "QCOM": 205.42,
+      "F": 14.95,
+      "MSFT": 403.41,
+      "BLK": 1011.96,
+      "D": 66.25,
+      "IMAX": 40.11,
+      "UBER": 70.38
     }
   }
 }
