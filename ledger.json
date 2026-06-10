@@ -107,6 +107,10 @@
     "UBER": {
       "shares": 1,
       "avg_cost": 71.82
+    },
+    "ORCL": {
+      "shares": 1,
+      "avg_cost": 201.26
     }
   },
   "trades": [
@@ -907,41 +911,48 @@
       "ticker": "AMZN",
       "price": 244.19,
       "reason": "Anthropic's release of Claude Fable 5 and Claude Mythos 5 marks a major advancement in generative AI, providing a significant positive catalyst for Amazon as a lead investor and strategic partner that hosts these models on its AWS platform."
+    },
+    {
+      "ts": "2026-06-10T21:53:20.977Z",
+      "action": "buy",
+      "ticker": "ORCL",
+      "price": 201.26,
+      "reason": "Oracle (ORCL) announced record Q4 and FY 2026 results driven by significant growth in its cloud infrastructure and applications businesses."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-09T21:47:25.692Z",
-    "unrealized": 1041.1945508684846,
-    "total": 1134.8149999999982,
+    "ts": "2026-06-10T21:53:15.572Z",
+    "unrealized": 756.4095508684843,
+    "total": 850.0299999999979,
     "prices": {
-      "WMT": 118.88,
-      "AMZN": 244.19,
-      "AAPL": 290.55,
-      "UNH": 413,
-      "BRK-B": 487.77,
-      "CVS": 97.06,
-      "XOM": 148.91,
-      "GOOGL": 364.26,
-      "MCK": 784.23,
-      "COR": 279.57,
-      "NVDA": 208.19,
-      "COST": 968.59,
-      "WBD": 26.56,
-      "JPM": 312.7,
-      "MU": 935.89,
-      "MCD": 282.25,
-      "TSLA": 396.68,
-      "INTC": 107.92,
-      "UAL": 109.63,
-      "AMD": 475.505,
-      "QCOM": 205.42,
-      "F": 14.95,
-      "MSFT": 403.41,
-      "BLK": 1011.96,
-      "D": 66.25,
-      "IMAX": 40.11,
-      "UBER": 70.38
+      "WMT": 120.59,
+      "AMZN": 238,
+      "AAPL": 291.58,
+      "UNH": 407.46,
+      "BRK-B": 483.68,
+      "CVS": 98.02,
+      "XOM": 150.62,
+      "GOOGL": 356.38,
+      "MCK": 790.44,
+      "COR": 281.24,
+      "NVDA": 200.42,
+      "COST": 983.37,
+      "WBD": 26.23,
+      "JPM": 309.14,
+      "MU": 891.88,
+      "MCD": 282.52,
+      "TSLA": 381.59,
+      "INTC": 107.04,
+      "UAL": 102.78,
+      "AMD": 452.4,
+      "QCOM": 191.2,
+      "F": 14.3,
+      "MSFT": 397.36,
+      "BLK": 1010.68,
+      "D": 66.77,
+      "IMAX": 42.18,
+      "UBER": 68.61
     }
   }
 }
