@@ -93,8 +93,8 @@
       "avg_cost": 421.92
     },
     "BLK": {
-      "shares": 3,
-      "avg_cost": 1032.1533333333334
+      "shares": 4,
+      "avg_cost": 1028.26
     },
     "D": {
       "shares": 1,
@@ -918,41 +918,49 @@
       "ticker": "ORCL",
       "price": 201.26,
       "reason": "Oracle (ORCL) announced record Q4 and FY 2026 results driven by significant growth in its cloud infrastructure and applications businesses."
+    },
+    {
+      "ts": "2026-06-11T21:55:17.820Z",
+      "action": "buy",
+      "ticker": "BLK",
+      "price": 1016.58,
+      "reason": "SpaceX's successful completion of the \"world’s largest I.P.O.\" and its status as a \"blockbuster\" provides a significant valuation markup for BlackRock, which was reported to be seeking a multibillion-dollar investment in the company."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-10T21:53:15.572Z",
-    "unrealized": 756.4095508684843,
-    "total": 850.0299999999979,
+    "ts": "2026-06-11T21:55:07.932Z",
+    "unrealized": 1085.1195508684848,
+    "total": 1178.7399999999984,
     "prices": {
-      "WMT": 120.59,
-      "AMZN": 238,
-      "AAPL": 291.58,
-      "UNH": 407.46,
-      "BRK-B": 483.68,
-      "CVS": 98.02,
-      "XOM": 150.62,
-      "GOOGL": 356.38,
-      "MCK": 790.44,
-      "COR": 281.24,
-      "NVDA": 200.42,
-      "COST": 983.37,
-      "WBD": 26.23,
-      "JPM": 309.14,
-      "MU": 891.88,
-      "MCD": 282.52,
-      "TSLA": 381.59,
-      "INTC": 107.04,
-      "UAL": 102.78,
-      "AMD": 452.4,
-      "QCOM": 191.2,
-      "F": 14.3,
-      "MSFT": 397.36,
-      "BLK": 1010.68,
-      "D": 66.77,
-      "IMAX": 42.18,
-      "UBER": 68.61
+      "WMT": 120.5,
+      "AMZN": 241.51,
+      "AAPL": 295.63,
+      "UNH": 405.55,
+      "BRK-B": 485.79,
+      "CVS": 100.48,
+      "XOM": 146.6,
+      "GOOGL": 357.77,
+      "MCK": 787.19,
+      "COR": 281.48,
+      "NVDA": 204.87,
+      "COST": 975.69,
+      "WBD": 26.86,
+      "JPM": 313.49,
+      "MU": 995.87,
+      "MCD": 284.77,
+      "TSLA": 399.15,
+      "INTC": 116.96,
+      "UAL": 112.61,
+      "AMD": 488.45,
+      "QCOM": 202.96,
+      "F": 14.71,
+      "MSFT": 390.34,
+      "BLK": 1016.58,
+      "D": 66.69,
+      "IMAX": 42.12,
+      "UBER": 69.55,
+      "ORCL": 184.1
     }
   }
 }
