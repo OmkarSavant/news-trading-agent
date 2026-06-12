@@ -49,8 +49,8 @@
       "avg_cost": 1014.96
     },
     "WBD": {
-      "shares": 2,
-      "avg_cost": 27.35
+      "shares": 3,
+      "avg_cost": 27.22666666666667
     },
     "JPM": {
       "shares": 4,
@@ -925,42 +925,49 @@
       "ticker": "BLK",
       "price": 1016.58,
       "reason": "SpaceX's successful completion of the \"world’s largest I.P.O.\" and its status as a \"blockbuster\" provides a significant valuation markup for BlackRock, which was reported to be seeking a multibillion-dollar investment in the company."
+    },
+    {
+      "ts": "2026-06-12T21:26:55.215Z",
+      "action": "buy",
+      "ticker": "WBD",
+      "price": 26.98,
+      "reason": "The Justice Department has approved Paramount’s acquisition of Warner Bros. Discovery, clearing a major regulatory hurdle for the multi-billion dollar merger and providing a significant boost to the company's outlook."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-11T21:55:07.932Z",
-    "unrealized": 1085.1195508684848,
-    "total": 1178.7399999999984,
+    "ts": "2026-06-12T21:26:46.541Z",
+    "unrealized": 1230.7095508684847,
+    "total": 1324.3299999999983,
     "prices": {
-      "WMT": 120.5,
-      "AMZN": 241.51,
-      "AAPL": 295.63,
-      "UNH": 405.55,
-      "BRK-B": 485.79,
-      "CVS": 100.48,
-      "XOM": 146.6,
-      "GOOGL": 357.77,
-      "MCK": 787.19,
-      "COR": 281.48,
-      "NVDA": 204.87,
-      "COST": 975.69,
-      "WBD": 26.86,
-      "JPM": 313.49,
-      "MU": 995.87,
-      "MCD": 284.77,
-      "TSLA": 399.15,
-      "INTC": 116.96,
-      "UAL": 112.61,
-      "AMD": 488.45,
-      "QCOM": 202.96,
-      "F": 14.71,
-      "MSFT": 390.34,
-      "BLK": 1016.58,
-      "D": 66.69,
-      "IMAX": 42.12,
-      "UBER": 69.55,
-      "ORCL": 184.1
+      "WMT": 121.04,
+      "AMZN": 238.55,
+      "AAPL": 291.13,
+      "UNH": 408.52,
+      "BRK-B": 489.25,
+      "CVS": 101.96,
+      "XOM": 147.01,
+      "GOOGL": 359.68,
+      "MCK": 784.05,
+      "COR": 281.67,
+      "NVDA": 205.19,
+      "COST": 982.35,
+      "WBD": 26.98,
+      "JPM": 320.72,
+      "MU": 981.61,
+      "MCD": 284.81,
+      "TSLA": 406.43,
+      "INTC": 124.57,
+      "UAL": 115.52,
+      "AMD": 511.57,
+      "QCOM": 211.72,
+      "F": 14.84,
+      "MSFT": 390.74,
+      "BLK": 1032,
+      "D": 67.91,
+      "IMAX": 42.24,
+      "UBER": 68.85,
+      "ORCL": 184.13
     }
   }
 }
