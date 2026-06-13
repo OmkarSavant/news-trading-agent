@@ -49,8 +49,8 @@
       "avg_cost": 1014.96
     },
     "WBD": {
-      "shares": 3,
-      "avg_cost": 27.22666666666667
+      "shares": 4,
+      "avg_cost": 27.165000000000003
     },
     "JPM": {
       "shares": 4,
@@ -932,11 +932,18 @@
       "ticker": "WBD",
       "price": 26.98,
       "reason": "The Justice Department has approved Paramount’s acquisition of Warner Bros. Discovery, clearing a major regulatory hurdle for the multi-billion dollar merger and providing a significant boost to the company's outlook."
+    },
+    {
+      "ts": "2026-06-13T21:06:32.984Z",
+      "action": "buy",
+      "ticker": "WBD",
+      "price": 26.98,
+      "reason": "The DOJ officially stated that the Paramount-Skydance merger with Warner Bros. Discovery will not harm competition, providing a final regulatory clear path for the massive consolidation."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-12T21:26:46.541Z",
+    "ts": "2026-06-13T21:06:27.799Z",
     "unrealized": 1230.7095508684847,
     "total": 1324.3299999999983,
     "prices": {
