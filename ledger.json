@@ -73,8 +73,8 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 4,
-      "avg_cost": 99.338
+      "shares": 5,
+      "avg_cost": 103.4644
     },
     "AMD": {
       "shares": 1,
@@ -946,42 +946,49 @@
       "ticker": "BLK",
       "price": 1032,
       "reason": "The Wall Street Journal and Yahoo Finance report that the SpaceX IPO debut has been a major market-lifting event, identifying key \"winners\" from the blockbuster offering, which validates BlackRock's strategic multibillion-dollar investment in the company."
+    },
+    {
+      "ts": "2026-06-15T22:12:34.138Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 119.97,
+      "reason": "Oil prices are dropping following a U.S.-Iran deal, which significantly lowers fuel expenses and improves profit margins for major carriers like United Airlines."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-14T21:03:27.876Z",
-    "unrealized": 1230.7095508684847,
-    "total": 1324.3299999999983,
+    "ts": "2026-06-15T22:12:27.469Z",
+    "unrealized": 1573.139550868484,
+    "total": 1666.7599999999977,
     "prices": {
-      "WMT": 121.04,
-      "AMZN": 238.55,
-      "AAPL": 291.13,
-      "UNH": 408.52,
-      "BRK-B": 489.25,
-      "CVS": 101.96,
-      "XOM": 147.01,
-      "GOOGL": 359.68,
-      "MCK": 784.05,
-      "COR": 281.67,
-      "NVDA": 205.19,
-      "COST": 982.35,
-      "WBD": 26.98,
-      "JPM": 320.72,
-      "MU": 981.61,
-      "MCD": 284.81,
-      "TSLA": 406.43,
-      "INTC": 124.57,
-      "UAL": 115.52,
-      "AMD": 511.57,
-      "QCOM": 211.72,
-      "F": 14.84,
-      "MSFT": 390.74,
-      "BLK": 1032,
-      "D": 67.91,
-      "IMAX": 42.24,
-      "UBER": 68.85,
-      "ORCL": 184.13
+      "WMT": 120.82,
+      "AMZN": 246.02,
+      "AAPL": 296.42,
+      "UNH": 411.04,
+      "BRK-B": 495.52,
+      "CVS": 100.68,
+      "XOM": 140.92,
+      "GOOGL": 369.35,
+      "MCK": 779.78,
+      "COR": 281.43,
+      "NVDA": 212.45,
+      "COST": 979.45,
+      "WBD": 26.83,
+      "JPM": 319.4,
+      "MU": 1087.99,
+      "MCD": 286.12,
+      "TSLA": 411.15,
+      "INTC": 127.86,
+      "UAL": 119.97,
+      "AMD": 547.26,
+      "QCOM": 220.81,
+      "F": 14.77,
+      "MSFT": 399.76,
+      "BLK": 1042.87,
+      "D": 68.15,
+      "IMAX": 42.32,
+      "UBER": 72.85,
+      "ORCL": 192.64
     }
   }
 }
