@@ -111,6 +111,10 @@
     "ORCL": {
       "shares": 1,
       "avg_cost": 201.26
+    },
+    "GM": {
+      "shares": 1,
+      "avg_cost": 82.51
     }
   },
   "trades": [
@@ -953,42 +957,49 @@
       "ticker": "UAL",
       "price": 119.97,
       "reason": "Oil prices are dropping following a U.S.-Iran deal, which significantly lowers fuel expenses and improves profit margins for major carriers like United Airlines."
+    },
+    {
+      "ts": "2026-06-16T22:06:54.249Z",
+      "action": "buy",
+      "ticker": "GM",
+      "price": 82.51,
+      "reason": "General Motors is in talks to supply weapons parts to Lockheed Martin, signaling a significant strategic expansion into the defense sector and a potential new revenue stream beyond traditional automotive manufacturing."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-15T22:12:27.469Z",
-    "unrealized": 1573.139550868484,
-    "total": 1666.7599999999977,
+    "ts": "2026-06-16T22:06:42.523Z",
+    "unrealized": 1441.519550868485,
+    "total": 1535.1399999999987,
     "prices": {
-      "WMT": 120.82,
-      "AMZN": 246.02,
-      "AAPL": 296.42,
-      "UNH": 411.04,
-      "BRK-B": 495.52,
-      "CVS": 100.68,
-      "XOM": 140.92,
-      "GOOGL": 369.35,
-      "MCK": 779.78,
-      "COR": 281.43,
-      "NVDA": 212.45,
-      "COST": 979.45,
-      "WBD": 26.83,
-      "JPM": 319.4,
-      "MU": 1087.99,
-      "MCD": 286.12,
-      "TSLA": 411.15,
-      "INTC": 127.86,
-      "UAL": 119.97,
-      "AMD": 547.26,
-      "QCOM": 220.81,
-      "F": 14.77,
-      "MSFT": 399.76,
-      "BLK": 1042.87,
-      "D": 68.15,
-      "IMAX": 42.32,
-      "UBER": 72.85,
-      "ORCL": 192.64
+      "WMT": 121.03,
+      "AMZN": 246,
+      "AAPL": 299.24,
+      "UNH": 407.65,
+      "BRK-B": 494.95,
+      "CVS": 100.72,
+      "XOM": 141.86,
+      "GOOGL": 373.25,
+      "MCK": 785.43,
+      "COR": 281.46,
+      "NVDA": 207.41,
+      "COST": 986.68,
+      "WBD": 26.6,
+      "JPM": 331.14,
+      "MU": 1020.76,
+      "MCD": 287.93,
+      "TSLA": 404.66,
+      "INTC": 117.05,
+      "UAL": 118.51,
+      "AMD": 507.29,
+      "QCOM": 214.07,
+      "F": 14.41,
+      "MSFT": 393.83,
+      "BLK": 1052.23,
+      "D": 68.5,
+      "IMAX": 43.71,
+      "UBER": 73.25,
+      "ORCL": 188.33
     }
   }
 }
