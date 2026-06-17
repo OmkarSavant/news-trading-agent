@@ -65,8 +65,8 @@
       "avg_cost": 304.51
     },
     "TSLA": {
-      "shares": 3,
-      "avg_cost": 411.69666666666666
+      "shares": 4,
+      "avg_cost": 407.86749999999995
     },
     "INTC": {
       "shares": 3,
@@ -964,42 +964,50 @@
       "ticker": "GM",
       "price": 82.51,
       "reason": "General Motors is in talks to supply weapons parts to Lockheed Martin, signaling a significant strategic expansion into the defense sector and a potential new revenue stream beyond traditional automotive manufacturing."
+    },
+    {
+      "ts": "2026-06-17T21:55:16.792Z",
+      "action": "buy",
+      "ticker": "TSLA",
+      "price": 396.38,
+      "reason": "CNN reports that the Justice Department is urging a court to dismiss a pollution lawsuit against Elon Musk’s company, which provides a significant regulatory tailwind for Tesla."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-16T22:06:42.523Z",
-    "unrealized": 1441.519550868485,
-    "total": 1535.1399999999987,
+    "ts": "2026-06-17T21:55:08.797Z",
+    "unrealized": 1226.9795508684854,
+    "total": 1320.599999999999,
     "prices": {
-      "WMT": 121.03,
-      "AMZN": 246,
-      "AAPL": 299.24,
-      "UNH": 407.65,
-      "BRK-B": 494.95,
-      "CVS": 100.72,
-      "XOM": 141.86,
-      "GOOGL": 373.25,
-      "MCK": 785.43,
-      "COR": 281.46,
-      "NVDA": 207.41,
-      "COST": 986.68,
-      "WBD": 26.6,
-      "JPM": 331.14,
-      "MU": 1020.76,
-      "MCD": 287.93,
-      "TSLA": 404.66,
-      "INTC": 117.05,
-      "UAL": 118.51,
-      "AMD": 507.29,
-      "QCOM": 214.07,
-      "F": 14.41,
-      "MSFT": 393.83,
-      "BLK": 1052.23,
-      "D": 68.5,
-      "IMAX": 43.71,
-      "UBER": 73.25,
-      "ORCL": 188.33
+      "WMT": 118.13,
+      "AMZN": 237.5,
+      "AAPL": 295.95,
+      "UNH": 399.53,
+      "BRK-B": 491.28,
+      "CVS": 99.16,
+      "XOM": 140.74,
+      "GOOGL": 363.79,
+      "MCK": 779.8,
+      "COR": 277.09,
+      "NVDA": 204.65,
+      "COST": 965.59,
+      "WBD": 26.24,
+      "JPM": 333.46,
+      "MU": 1043.19,
+      "MCD": 283.82,
+      "TSLA": 396.38,
+      "INTC": 121.1,
+      "UAL": 115.83,
+      "AMD": 512.48,
+      "QCOM": 212.97,
+      "F": 13.96,
+      "MSFT": 378.91,
+      "BLK": 1057.38,
+      "D": 68.02,
+      "IMAX": 44.29,
+      "UBER": 70.91,
+      "ORCL": 183.53,
+      "GM": 79.58
     }
   }
 }
