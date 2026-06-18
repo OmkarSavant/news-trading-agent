@@ -73,8 +73,8 @@
       "avg_cost": 91.41333333333334
     },
     "UAL": {
-      "shares": 5,
-      "avg_cost": 103.4644
+      "shares": 6,
+      "avg_cost": 105.94033333333334
     },
     "AMD": {
       "shares": 1,
@@ -971,43 +971,50 @@
       "ticker": "TSLA",
       "price": 396.38,
       "reason": "CNN reports that the Justice Department is urging a court to dismiss a pollution lawsuit against Elon Musk’s company, which provides a significant regulatory tailwind for Tesla."
+    },
+    {
+      "ts": "2026-06-18T22:00:30.509Z",
+      "action": "buy",
+      "ticker": "UAL",
+      "price": 118.32,
+      "reason": "Gas and oil prices are falling sharply toward pre-war levels following the signing of an Iran peace deal, a development that significantly lowers fuel expenses and boosts profit margins for United Airlines."
     }
   ],
   "realized_pnl": 93.62044913151361,
   "last_pnl_snapshot": {
-    "ts": "2026-06-17T21:55:08.797Z",
-    "unrealized": 1226.9795508684854,
-    "total": 1320.599999999999,
+    "ts": "2026-06-18T22:00:21.054Z",
+    "unrealized": 1418.4595508684843,
+    "total": 1512.0799999999979,
     "prices": {
-      "WMT": 118.13,
-      "AMZN": 237.5,
-      "AAPL": 295.95,
-      "UNH": 399.53,
-      "BRK-B": 491.28,
-      "CVS": 99.16,
-      "XOM": 140.74,
-      "GOOGL": 363.79,
-      "MCK": 779.8,
-      "COR": 277.09,
-      "NVDA": 204.65,
-      "COST": 965.59,
-      "WBD": 26.24,
-      "JPM": 333.46,
-      "MU": 1043.19,
-      "MCD": 283.82,
-      "TSLA": 396.38,
-      "INTC": 121.1,
-      "UAL": 115.83,
-      "AMD": 512.48,
-      "QCOM": 212.97,
-      "F": 13.96,
-      "MSFT": 378.91,
-      "BLK": 1057.38,
-      "D": 68.02,
-      "IMAX": 44.29,
-      "UBER": 70.91,
-      "ORCL": 183.53,
-      "GM": 79.58
+      "WMT": 117.18,
+      "AMZN": 244.39,
+      "AAPL": 298.01,
+      "UNH": 400.96,
+      "BRK-B": 489.46,
+      "CVS": 98.32,
+      "XOM": 137.81,
+      "GOOGL": 368.03,
+      "MCK": 750.63,
+      "COR": 271.83,
+      "NVDA": 210.69,
+      "COST": 951.45,
+      "WBD": 26.2,
+      "JPM": 325.22,
+      "MU": 1133.99,
+      "MCD": 278.61,
+      "TSLA": 400.49,
+      "INTC": 133.99,
+      "UAL": 118.32,
+      "AMD": 537.37,
+      "QCOM": 226.11,
+      "F": 14.06,
+      "MSFT": 379.4,
+      "BLK": 1050.09,
+      "D": 68.41,
+      "IMAX": 44.33,
+      "UBER": 71.64,
+      "ORCL": 184.29,
+      "GM": 79.29
     }
   }
 }
