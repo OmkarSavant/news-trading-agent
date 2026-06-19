@@ -25,7 +25,7 @@
       "avg_cost": 73.49
     },
     "XOM": {
-      "shares": 30,
+      "shares": 29,
       "avg_cost": 157.81578163771715
     },
     "GOOGL": {
@@ -978,11 +978,18 @@
       "ticker": "UAL",
       "price": 118.32,
       "reason": "Gas and oil prices are falling sharply toward pre-war levels following the signing of an Iran peace deal, a development that significantly lowers fuel expenses and boosts profit margins for United Airlines."
+    },
+    {
+      "ts": "2026-06-19T21:03:27.195Z",
+      "action": "sell",
+      "ticker": "XOM",
+      "price": 137.81,
+      "reason": "The framework for a US-Iran peace deal is taking shape, a development that is expected to lower global oil prices and reduce the profit margins of major energy producers like Exxon Mobil."
     }
   ],
-  "realized_pnl": 93.62044913151361,
+  "realized_pnl": 73.61466749379646,
   "last_pnl_snapshot": {
-    "ts": "2026-06-18T22:00:21.054Z",
+    "ts": "2026-06-19T21:03:15.304Z",
     "unrealized": 1418.4595508684843,
     "total": 1512.0799999999979,
     "prices": {
