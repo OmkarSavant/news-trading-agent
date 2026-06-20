@@ -65,8 +65,8 @@
       "avg_cost": 304.51
     },
     "TSLA": {
-      "shares": 4,
-      "avg_cost": 407.86749999999995
+      "shares": 5,
+      "avg_cost": 406.39199999999994
     },
     "INTC": {
       "shares": 3,
@@ -985,12 +985,19 @@
       "ticker": "XOM",
       "price": 137.81,
       "reason": "The framework for a US-Iran peace deal is taking shape, a development that is expected to lower global oil prices and reduce the profit margins of major energy producers like Exxon Mobil."
+    },
+    {
+      "ts": "2026-06-20T21:08:50.147Z",
+      "action": "buy",
+      "ticker": "TSLA",
+      "price": 400.49,
+      "reason": "Fortune reports that the odds of a merger between SpaceX and Tesla continue to climb as Tesla's stock price rises, serving as a significant speculative catalyst for investors."
     }
   ],
   "realized_pnl": 73.61466749379646,
   "last_pnl_snapshot": {
-    "ts": "2026-06-19T21:03:15.304Z",
-    "unrealized": 1418.4595508684843,
+    "ts": "2026-06-20T21:08:42.138Z",
+    "unrealized": 1438.4653325062013,
     "total": 1512.0799999999979,
     "prices": {
       "WMT": 117.18,
