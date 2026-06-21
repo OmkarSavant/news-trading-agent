@@ -5,7 +5,7 @@
       "avg_cost": 126.28
     },
     "AMZN": {
-      "shares": 10,
+      "shares": 9,
       "avg_cost": 248.1655
     },
     "AAPL": {
@@ -992,11 +992,18 @@
       "ticker": "TSLA",
       "price": 400.49,
       "reason": "Fortune reports that the odds of a merger between SpaceX and Tesla continue to climb as Tesla's stock price rises, serving as a significant speculative catalyst for investors."
+    },
+    {
+      "ts": "2026-06-21T21:07:58.323Z",
+      "action": "sell",
+      "ticker": "AMZN",
+      "price": 244.39,
+      "reason": "The Trump administration's reported crackdown on Anthropic introduces significant regulatory and strategic risk for Amazon, which is a lead investor and primary cloud partner for the AI startup."
     }
   ],
-  "realized_pnl": 73.61466749379646,
+  "realized_pnl": 69.83916749379644,
   "last_pnl_snapshot": {
-    "ts": "2026-06-20T21:08:42.138Z",
+    "ts": "2026-06-21T21:07:46.123Z",
     "unrealized": 1438.4653325062013,
     "total": 1512.0799999999979,
     "prices": {
