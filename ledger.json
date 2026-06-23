@@ -115,6 +115,10 @@
     "GM": {
       "shares": 1,
       "avg_cost": 82.51
+    },
+    "FDX": {
+      "shares": 1,
+      "avg_cost": 317.24
     }
   },
   "trades": [
@@ -1006,43 +1010,50 @@
       "ticker": "TSLA",
       "price": 405.05,
       "reason": "The Wall Street Journal reports that a fatal Tesla crash into a Texas home is now under federal safety investigation, which introduces significant regulatory risk and potential liability for the company."
+    },
+    {
+      "ts": "2026-06-23T21:27:04.399Z",
+      "action": "buy",
+      "ticker": "FDX",
+      "price": 317.24,
+      "reason": "FedEx reported strong quarterly earnings driven by its freight business, signaling robust operational performance and providing a positive catalyst for the stock."
     }
   ],
   "realized_pnl": 68.49716749379651,
   "last_pnl_snapshot": {
-    "ts": "2026-06-22T21:57:25.929Z",
-    "unrealized": 1549.9208325062027,
-    "total": 1619.759999999999,
+    "ts": "2026-06-23T21:26:53.112Z",
+    "unrealized": 955.2928325062021,
+    "total": 1023.7899999999986,
     "prices": {
-      "WMT": 117.18,
-      "AMZN": 232.79,
-      "AAPL": 297.01,
-      "UNH": 406.68,
-      "BRK-B": 488.69,
-      "CVS": 101.3,
-      "XOM": 138.47,
-      "GOOGL": 349.68,
-      "MCK": 744.85,
-      "COR": 271.28,
-      "NVDA": 208.65,
-      "COST": 951.35,
-      "WBD": 26.95,
-      "JPM": 331.48,
-      "MU": 1211.38,
-      "MCD": 270.1,
-      "TSLA": 405.05,
-      "INTC": 140.94,
-      "UAL": 118.68,
-      "AMD": 551.63,
-      "QCOM": 221.9,
-      "F": 14.11,
-      "MSFT": 367.34,
-      "BLK": 1051.74,
-      "D": 68.04,
-      "IMAX": 44,
-      "UBER": 71.43,
-      "ORCL": 175.07,
-      "GM": 80.43
+      "WMT": 119.42,
+      "AMZN": 234.11,
+      "AAPL": 294.3,
+      "UNH": 409.25,
+      "BRK-B": 492.81,
+      "CVS": 101.57,
+      "XOM": 139.73,
+      "GOOGL": 346.13,
+      "MCK": 763.91,
+      "COR": 281.1,
+      "NVDA": 200.04,
+      "COST": 957.68,
+      "WBD": 26.88,
+      "JPM": 334.14,
+      "MU": 1051.77,
+      "MCD": 271.66,
+      "TSLA": 381.61,
+      "INTC": 132.28,
+      "UAL": 121.55,
+      "AMD": 519.85,
+      "QCOM": 204.13,
+      "F": 14,
+      "MSFT": 373.94,
+      "BLK": 1015.33,
+      "D": 68.45,
+      "IMAX": 44.97,
+      "UBER": 69.67,
+      "ORCL": 165.16,
+      "GM": 78.95
     }
   }
 }
